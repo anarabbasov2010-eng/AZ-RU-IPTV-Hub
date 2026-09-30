@@ -238,6 +238,10 @@ quality:
   bitrate_weight: 0.15
   https_weight: 0.10
 
+metadata:
+  enabled: true
+  api_url: https://iptv-org.github.io/api/channels.json
+
 epg:
   enabled: true
   api_url: https://iptv-org.github.io/api/guides.json
