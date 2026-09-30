@@ -13,7 +13,7 @@ Automated IPTV catalog for Azerbaijani and Russian-language/publicly available c
 - Keeps the last-known-good output when an update run fails.
 - Produces machine-readable health/status data and multi-source diagnostics.
 - Maps channel metadata to Russian Cyrillic display names where the public metadata provides them.
-- Integrates public EPG guide mappings when available.
+- Integrates public EPG guide mappings and downloads a merged XMLTV program guide.\n- Adds channel/feed metadata, logos, automatic stream discovery, source headers and multiple public fallback URLs.\n- Deep-checks HLS manifests/media playlists and keeps per-source rolling uptime/latency history.
 - Generates AZ/RU sports playlists plus HD, Full HD and low-bandwidth playlists.
 - Keeps source-level diagnostics in `data/sources.json` and a rolling build history in `status/history.json`.
 - Runs automatically with GitHub Actions.
@@ -28,7 +28,7 @@ This repository does not host video files. It links to externally hosted streams
 
 Generated files live in playlists/:
 
-- all.m3u
+- all.m3u\n- `epg/programs.xml` — merged XMLTV program schedule for mapped channels
 - azerbaijan.m3u
 - russia.m3u
 - russian-language.m3u
