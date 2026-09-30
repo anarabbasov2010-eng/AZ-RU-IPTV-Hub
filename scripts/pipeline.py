@@ -30,6 +30,9 @@ class Candidate:
     bitrate: int = 0
     reason: str = ""
     score: float = 0.0
+    epg_url: str = ""
+    attempts: int = 0
+    checked_at: str = ""
 
 def now():
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
@@ -73,7 +76,29 @@ def display_name(name, country, cfg):
         return clean
     aliases = cfg.get("display_names", {})
     k = re.sub(r"[^\w\u0400-\u04ff]+", " ", clean.lower(), flags=re.UNICODE).strip()
-    return aliases.get(k, clean)
+    return aliases.get(k, aliases.get(k.replace(" ", "_"), clean))
+
+def load_guides(cfg):
+    epg = cfg.get("epg") or {}
+    if not epg.get("enabled") or not epg.get("api_url"):
+        return []
+    try:
+        body, _, _ = fetch(epg["api_url"], cfg["discovery"]["timeout_seconds"], 12 * 1024 * 1024)
+        return json.loads(body)
+    except Exception as e:
+        print(f"[WARN] EPG API: {e}")
+        return []
+
+def enrich_epg(candidates, guides):
+    mapping = {}
+    for g in guides if isinstance(guides, list) else []:
+        cid = g.get("channel")
+        sources = g.get("sources") or []
+        if cid and sources and isinstance(sources[0], dict) and sources[0].get("url"):
+            mapping[cid] = sources[0]["url"]
+    for c in candidates:
+        c.epg_url = mapping.get(c.tvg_id or c.channel_id, "")
+    return candidates
 
 def key(name, aliases):
     n = re.sub(r"[^\w\u0400-\u04ff]+", " ", name.lower(), flags=re.UNICODE).strip()
@@ -157,6 +182,8 @@ def inspect(c, cfg):
     start = time.perf_counter()
     last = ""
     retries = cfg["discovery"].get("retries", 3)
+    c.attempts = retries
+    c.checked_at = now()
     for attempt in range(retries):
         try:
             body, final, hdr = fetch(c.url, cfg["discovery"]["timeout_seconds"], cfg["discovery"]["max_manifest_bytes"],
@@ -202,8 +229,12 @@ def inspect(c, cfg):
     c.score = -1
     return c
 
-def write_m3u(items, path, title):
-    lines = ["#EXTM3U", f"# {title} | generated {now()}"]
+def write_m3u(items, path, title, epg_urls=None):
+    epg_urls = [x for x in (epg_urls or []) if x]
+    header = "#EXTM3U"
+    if epg_urls:
+        header += " url-tvg=" + ",".join(f'"{x}"' for x in epg_urls)
+    lines = [header, f"# {title} | generated {now()}"]
     for c in sorted(items, key=lambda x: (x.country, x.name.lower())):
         attrs = [f'tvg-id="{c.tvg_id or c.channel_id}"', f'tvg-name="{c.name}"']
         if c.logo:
@@ -215,6 +246,7 @@ def write_m3u(items, path, title):
 def run(config_path):
     cfg = yaml.safe_load(Path(config_path).read_text(encoding="utf-8"))
     candidates = manual_candidates(cfg)
+    guides = load_guides(cfg)
     for src in cfg["catalogs"]:
         try:
             body, base, _ = fetch(src["url"], cfg["discovery"]["timeout_seconds"], 12 * 1024 * 1024)
@@ -256,11 +288,13 @@ def run(config_path):
         if prev is None or c.score > prev.score:
             final_by_url[u] = c
     items = list(final_by_url.values())
+    enrich_epg(items, guides)
     build = Path(tempfile.mkdtemp(prefix="iptv-build-"))
     try:
         for d in ("playlists", "data", "status"):
             (build / d).mkdir(parents=True, exist_ok=True)
-        write_m3u(items, build / "playlists/all.m3u", "AZ-RU-IPTV-Hub • all")
+        epg_urls = sorted({c.epg_url for c in items if c.epg_url})
+        write_m3u(items, build / "playlists/all.m3u", "AZ-RU-IPTV-Hub • all", epg_urls)
         filters = [
             ("azerbaijan.m3u", lambda c: c.country == "AZ", "Azerbaijan"),
             ("russia.m3u", lambda c: c.country == "RU", "Russia"),
@@ -272,12 +306,29 @@ def run(config_path):
             ("music.m3u", lambda c: "music" in c.categories, "Music"),
         ]
         for filename, pred, title in filters:
-            write_m3u([c for c in items if pred(c)], build / "playlists" / filename, title)
+            subset = [c for c in items if pred(c)]
+            write_m3u(subset, build / "playlists" / filename, title, sorted({c.epg_url for c in subset if c.epg_url}))
         data = [asdict(c) for c in items]
+        sources_data = {}
+        for c in checked:
+            if c.status == "online":
+                sources_data.setdefault(c.channel_id, []).append(asdict(c))
         (build / "data/catalog.json").write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        (build / "data/sources.json").write_text(json.dumps(sources_data, ensure_ascii=False, indent=2), encoding="utf-8")
         report = {"generated_at": now(), "candidates_checked": len(checked), "online_unique_channels": len(items),
-                  "offline_candidates": sum(c.status == "offline" for c in checked), "channels": data}
+                  "online_candidates": sum(c.status == "online" for c in checked),
+                  "offline_candidates": sum(c.status == "offline" for c in checked),
+                  "epg_mapped_channels": sum(bool(c.epg_url) for c in items),
+                  "source_count": sum(len(v) for v in sources_data.values()),
+                  "channels": data}
         (build / "status/health.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+        hp = ROOT / "status" / "history.json"
+        try:
+            history = json.loads(hp.read_text(encoding="utf-8")) if hp.exists() else []
+        except Exception:
+            history = []
+        history.append({k: report[k] for k in ("generated_at","online_unique_channels","online_candidates","offline_candidates","epg_mapped_channels")})
+        (build / "status/history.json").write_text(json.dumps(history[-168:], ensure_ascii=False, indent=2), encoding="utf-8")
         for src in build.iterdir():
             for f in src.rglob("*"):
                 if f.is_file():
