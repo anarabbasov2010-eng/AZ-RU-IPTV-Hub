@@ -239,8 +239,10 @@ quality:
   https_weight: 0.10
 
 epg:
-  enabled: false
+  enabled: true
+  api_url: https://iptv-org.github.io/api/guides.json
   sources: []
+
 
 aliases:
   "az tv": "aztv"
@@ -281,7 +283,13 @@ aliases:
   "мир": "mir"
 
 display_names:
+  "russia 1": "Россия 1"
+  "россия 1": "Россия 1"
+  "россия-1": "Россия 1"
   "russia_1": "Россия 1"
+  "russia 24": "Россия 24"
+  "россия 24": "Россия 24"
+  "россия-24": "Россия 24"
   "russia_24": "Россия 24"
   "channel_one": "Первый канал"
   "1tv": "Первый канал"
@@ -328,7 +336,7 @@ display_names:
   "tv3": "ТВ-3"
 
 category_keywords:
-  sports: [sport, sports, спорт, спортив, idman, football, futbol, soccer, хоккей, хокке, теннис, basketball, баскетбол, fight, combat, match, матч, arena, арена, boec, боец, premier, футбол, eurosport]
+  sports: [sport, sports, спорт, спортив, idman, football, futbol, soccer, хоккей, хокке, теннис, tennis, basketball, баскетбол, fight, combat, match, матч, arena, арена, boec, боец, premier, футбол, eurosport, ufc, mma, boxing, бокс, formula 1, formula1, racing, motorsport, автоспорт, wrestling, борьба, лига, league, чемпионат, championship, derby, race, grand prix, гран-при]
   movies: [movie, cinema, кино, фильм, кинопоказ, serial, сериал]
   news: [news, новости, xəbər, xebər, xeber, информац, 24]
   kids: [kids, дет, мульт, cartoon, children, karusel, карусель, gunes, günəş]
