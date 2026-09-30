@@ -40,6 +40,7 @@ catalogs:
     kind: m3u
     url: https://iptv-org.github.io/iptv/categories/sports.m3u
     filter_categories: ["sports"]
+    filter_countries: ["AZ", "RU"]
 
 manual_streams:
   # Azerbaijani channels: several public candidates are kept where available.
