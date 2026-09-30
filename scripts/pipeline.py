@@ -225,7 +225,16 @@ def run(config_path):
             best[c.channel_id] = c
     if not best:
         raise RuntimeError("No healthy public stream candidates survived validation")
-    items = list(best.values())
+    # Final global URL deduplication: one external stream URL may not be published twice.
+    final_by_url = {}
+    for c in best.values():
+        u = canon(c.url)
+        if not u:
+            continue
+        prev = final_by_url.get(u)
+        if prev is None or c.score > prev.score:
+            final_by_url[u] = c
+    items = list(final_by_url.values())
     build = Path(tempfile.mkdtemp(prefix="iptv-build-"))
     try:
         for d in ("playlists", "data", "status"):
