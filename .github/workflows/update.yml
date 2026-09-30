@@ -1,6 +1,12 @@
 name: Update IPTV catalog
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "config/**"
+      - "scripts/**"
+      - ".github/workflows/update.yml"
   workflow_dispatch:
   schedule:
     - cron: "17 */4 * * *"
@@ -15,7 +21,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
