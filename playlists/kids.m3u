@@ -1,5 +1,5 @@
 #EXTM3U
-# Kids | generated 2026-09-30T12:30:14+00:00
+# Kids | generated 2026-09-30T12:43:54+00:00
 #EXTINF:-1 tvg-id="Ani.ru@SD" tvg-name="Ani" tvg-logo="https://i.imgur.com/i2AP0hp.png" group-title="RU • Kids",Ani
 http://46.32.176.50/anitv/index.m3u8
 #EXTINF:-1 tvg-id="BabyTime.ru@SD" tvg-name="Baby Time" tvg-logo="https://i.imgur.com/lW3WIBD.png" group-title="RU • Kids",Baby Time
@@ -24,6 +24,8 @@ https://stream8.cinerama.uz/1407/tracks-v1a1/mono.m3u8
 https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Tamyr.ru@SD" tvg-name="Tamyr" tvg-logo="https://i.imgur.com/Ia3acCB.png" group-title="RU • Kids",Tamyr
 https://bsttv.bonus-tv.ru/cdn/tamyr/playlist.m3u8
+#EXTINF:-1 tvg-id="TiJi.ru@SD" tvg-name="TiJi" tvg-logo="https://i.imgur.com/QCOUJ30.png" group-title="RU • Kids",TiJi
+http://stream.mcquack.net/111/index.m3u8
 #EXTINF:-1 tvg-id="Tooku.ru@SD" tvg-name="Tooku" tvg-logo="https://tooku.ru/wp-content/uploads/2024/11/tooku-kanal-logo.png" group-title="RU • Kids",Tooku
 http://live-saha.cdnvideo.ru/saha/tooky/playlist.m3u8
 #EXTINF:-1 tvg-id="Vgostyakhuskazki.ru@SD" tvg-name="V gostyakh u skazki" tvg-logo="https://i.imgur.com/jNJkLHl.png" group-title="RU • Kids",V gostyakh u skazki

@@ -1,5 +1,5 @@
 #EXTM3U
-# News | generated 2026-09-30T12:30:14+00:00
+# News | generated 2026-09-30T12:43:54+00:00
 #EXTINF:-1 tvg-id="APATv.az@SD" tvg-name="APA Tv" tvg-logo="https://i.imgur.com/2CSW4V4.png" group-title="AZ • News",APA Tv
 http://stream.apa.tv/apastream/index.m3u8
 #EXTINF:-1 tvg-id="KapazTV.az" tvg-name="Kəpəz TV" group-title="AZ • News",Kəpəz TV
@@ -28,8 +28,6 @@ https://zabava-block-htvod.cdn.ngenix.net/rtk_block.m3u8
 https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 #EXTINF:-1 tvg-id="Lugansk24.ua@SD" tvg-name="Lugansk 24" tvg-logo="https://i.imgur.com/AihoVc0.png" group-title="RU • News",Lugansk 24
 https://streaming.televizor24.cc/live/29.m3u8
-#EXTINF:-1 tvg-id="Mir24.ru@SD" tvg-name="Mir 24" tvg-logo="https://i.imgur.com/dj9c8Yd.png" group-title="RU • News",Mir 24
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="Moskva24.ru@SD" tvg-name="Moskva 24" tvg-logo="https://i.imgur.com/gXbUMVy.png" group-title="RU • News",Moskva 24
 https://stream.smotrim.ru/hls/givc8/playlist.m3u8?entity=channel&id=798&sign=37881ef2e289f062ceff0dca6c24dc58
 #EXTINF:-1 tvg-id="NovorossiyaTV.ru@SD" tvg-name="Novorossiya TV" tvg-logo="https://i.imgur.com/ijmf0bV.png" group-title="RU • News",Novorossiya TV
@@ -54,3 +52,5 @@ http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
 #EXTINF:-1 tvg-id="Vetta24.ru@SD" tvg-name="Vetta 24" tvg-logo="https://i.imgur.com/zKH1b5k.png" group-title="RU • News",Vetta 24
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
+#EXTINF:-1 tvg-id="Mir24.ru@SD" tvg-name="МИР 24" tvg-logo="https://i.imgur.com/dj9c8Yd.png" group-title="RU • News",МИР 24
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8

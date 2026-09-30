@@ -1,12 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:43:54+00:00",
-  "candidates_checked": 548,
-  "online_unique_channels": 320,
-  "online_candidates": 324,
-  "offline_candidates": 224,
-  "epg_mapped_channels": 0,
-  "source_count": 324,
-  "channels": [
+  "kapaz": [
     {
       "channel_id": "kapaz",
       "name": "Kəpəz TV",
@@ -32,7 +25,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:35+00:00"
-    },
+    }
+  ],
+  "apa_tv": [
     {
       "channel_id": "apa_tv",
       "name": "APA Tv",
@@ -56,7 +51,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:35+00:00"
-    },
+    }
+  ],
+  "el_tv": [
     {
       "channel_id": "el_tv",
       "name": "EL TV",
@@ -82,7 +79,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:35+00:00"
-    },
+    }
+  ],
+  "ayaz_tv": [
     {
       "channel_id": "ayaz_tv",
       "name": "Ayaz TV",
@@ -106,7 +105,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:35+00:00"
-    },
+    }
+  ],
+  "alvin_channel_tv": [
     {
       "channel_id": "alvin_channel_tv",
       "name": "Alvin Channel TV",
@@ -130,7 +131,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:35+00:00"
-    },
+    }
+  ],
+  "dunyatv": [
     {
       "channel_id": "dunyatv",
       "name": "Dünya TV",
@@ -149,6 +152,34 @@
       "protocol": "hls",
       "status": "online",
       "latency_ms": 1016.4,
+      "resolution": "",
+      "bitrate": 0,
+      "reason": "ok",
+      "score": 44.99999999999999,
+      "epg_url": "",
+      "attempts": 2,
+      "checked_at": "2026-09-30T12:42:35+00:00"
+    }
+  ],
+  "aztv": [
+    {
+      "channel_id": "aztv",
+      "name": "AzTV",
+      "url": "https://stream8.cinerama.uz/1455/tracks-v1a1/mono.m3u8",
+      "country": "AZ",
+      "languages": [
+        "Azerbaijani"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": "",
+      "tvg_id": "AzTV.az",
+      "website": "",
+      "source": "manual",
+      "protocol": "hls",
+      "status": "online",
+      "latency_ms": 1036.0,
       "resolution": "",
       "bitrate": 0,
       "reason": "ok",
@@ -180,7 +211,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:36+00:00"
-    },
+    }
+  ],
+  "kanal_35": [
     {
       "channel_id": "kanal_35",
       "name": "Kanal 35",
@@ -204,7 +237,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:36+00:00"
-    },
+    }
+  ],
+  "kn_music_tv": [
     {
       "channel_id": "kn_music_tv",
       "name": "KN Music TV",
@@ -228,7 +263,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:36+00:00"
-    },
+    }
+  ],
+  "kanals": [
     {
       "channel_id": "kanals",
       "name": "Kanal S",
@@ -252,7 +289,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:36+00:00"
-    },
+    }
+  ],
+  "azstar": [
     {
       "channel_id": "azstar",
       "name": "Az Star TV",
@@ -276,7 +315,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "naxcivan": [
     {
       "channel_id": "naxcivan",
       "name": "Naxcivan TV",
@@ -300,7 +341,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "vilayet_tv": [
     {
       "channel_id": "vilayet_tv",
       "name": "Vilayet TV",
@@ -324,7 +367,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "1hd_music_television": [
     {
       "channel_id": "1hd_music_television",
       "name": "1HD Music Television",
@@ -348,7 +393,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "medeniyyet": [
     {
       "channel_id": "medeniyyet",
       "name": "Medeniyyet TV",
@@ -372,7 +419,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:36+00:00"
-    },
+    }
+  ],
+  "xezer": [
     {
       "channel_id": "xezer",
       "name": "Xezer TV",
@@ -396,7 +445,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "360_news": [
     {
       "channel_id": "360_news",
       "name": "360° News",
@@ -420,7 +471,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "red_hd": [
     {
       "channel_id": "red_hd",
       "name": ".red HD",
@@ -444,7 +497,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:38+00:00"
-    },
+    }
+  ],
+  "sci_fi": [
     {
       "channel_id": "sci_fi",
       "name": ".sci-fi",
@@ -468,7 +523,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:38+00:00"
-    },
+    }
+  ],
+  "360": [
     {
       "channel_id": "360",
       "name": "360°",
@@ -492,7 +549,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "3abn_russia": [
     {
       "channel_id": "3abn_russia",
       "name": "3ABN Russia",
@@ -516,7 +575,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "2x2": [
     {
       "channel_id": "2x2",
       "name": "2x2",
@@ -540,7 +601,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "86": [
     {
       "channel_id": "86",
       "name": "86",
@@ -564,7 +627,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "amedia_hit": [
     {
       "channel_id": "amedia_hit",
       "name": "Amedia Hit",
@@ -589,7 +654,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:38+00:00"
-    },
+    }
+  ],
+  "ani": [
     {
       "channel_id": "ani",
       "name": "Ani",
@@ -613,7 +680,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:38+00:00"
-    },
+    }
+  ],
+  "aist_tv": [
     {
       "channel_id": "aist_tv",
       "name": "AIST TV",
@@ -637,7 +706,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:38+00:00"
-    },
+    }
+  ],
+  "365_days_tv": [
     {
       "channel_id": "365_days_tv",
       "name": "365 days TV",
@@ -661,7 +732,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "aris_24": [
     {
       "channel_id": "aris_24",
       "name": "Aris 24",
@@ -685,7 +758,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:38+00:00"
-    },
+    }
+  ],
+  "angel_tv_russian": [
     {
       "channel_id": "angel_tv_russian",
       "name": "Angel TV Russian",
@@ -709,7 +784,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:38+00:00"
-    },
+    }
+  ],
+  "art_russia": [
     {
       "channel_id": "art_russia",
       "name": "ART (Russia)",
@@ -733,7 +810,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:39+00:00"
-    },
+    }
+  ],
+  "black": [
     {
       "channel_id": "black",
       "name": ".black",
@@ -757,7 +836,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "baby_time": [
     {
       "channel_id": "baby_time",
       "name": "Baby Time",
@@ -782,7 +863,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:39+00:00"
-    },
+    }
+  ],
+  "west_azerbaijan_tv": [
     {
       "channel_id": "west_azerbaijan_tv",
       "name": "West Azerbaijan TV",
@@ -806,7 +889,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "astrahan_ru_tv": [
     {
       "channel_id": "astrahan_ru_tv",
       "name": "Astrahan.Ru TV",
@@ -830,7 +915,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:39+00:00"
-    },
+    }
+  ],
+  "astrahan_ru_sport": [
     {
       "channel_id": "astrahan_ru_sport",
       "name": "Astrahan.Ru Sport",
@@ -854,7 +941,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:39+00:00"
-    },
+    }
+  ],
+  "balabol": [
     {
       "channel_id": "balabol",
       "name": "Balabol",
@@ -878,7 +967,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:39+00:00"
-    },
+    }
+  ],
+  "arkhyz_24": [
     {
       "channel_id": "arkhyz_24",
       "name": "Arkhyz 24",
@@ -902,7 +993,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:38+00:00"
-    },
+    }
+  ],
+  "arsenal": [
     {
       "channel_id": "arsenal",
       "name": "Arsenal",
@@ -926,7 +1019,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:39+00:00"
-    },
+    }
+  ],
+  "bollywood_hd_russia": [
     {
       "channel_id": "bollywood_hd_russia",
       "name": "Bollywood HD Russia",
@@ -950,7 +1045,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:40+00:00"
-    },
+    }
+  ],
+  "big_asia": [
     {
       "channel_id": "big_asia",
       "name": "Big Asia",
@@ -974,7 +1071,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:39+00:00"
-    },
+    }
+  ],
+  "bridge_classic": [
     {
       "channel_id": "bridge_classic",
       "name": "BRIDGE Classic",
@@ -998,7 +1097,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:40+00:00"
-    },
+    }
+  ],
+  "6_tv_gorlovka": [
     {
       "channel_id": "6_tv_gorlovka",
       "name": "6 TV Gorlovka",
@@ -1022,7 +1123,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "bridge_deluxe_hd": [
     {
       "channel_id": "bridge_deluxe_hd",
       "name": "BRIDGE Deluxe HD",
@@ -1046,7 +1149,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:40+00:00"
-    },
+    }
+  ],
+  "belgorod_24": [
     {
       "channel_id": "belgorod_24",
       "name": "Belgorod 24",
@@ -1070,7 +1175,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:39+00:00"
-    },
+    }
+  ],
+  "bridge_rock": [
     {
       "channel_id": "bridge_rock",
       "name": "BRIDGE Rock",
@@ -1094,7 +1201,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:40+00:00"
-    },
+    }
+  ],
+  "carousel_4": [
     {
       "channel_id": "carousel_4",
       "name": "Carousel +4",
@@ -1118,7 +1227,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:41+00:00"
-    },
+    }
+  ],
+  "channel_8_russia": [
     {
       "channel_id": "channel_8_russia",
       "name": "Channel 8 (Russia)",
@@ -1142,7 +1253,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:41+00:00"
-    },
+    }
+  ],
+  "bridge": [
     {
       "channel_id": "bridge",
       "name": "BRIDGE",
@@ -1166,7 +1279,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:40+00:00"
-    },
+    }
+  ],
+  "like_gecko_chrome_150_0_0_0_safari_537_36_edg_150_0_0_0_group_title_general_chan": [
     {
       "channel_id": "like_gecko_chrome_150_0_0_0_safari_537_36_edg_150_0_0_0_group_title_general_chan",
       "name": "like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0\" group-title=\"General\",Channel 8 Novosibirsk",
@@ -1192,6 +1307,32 @@
       "checked_at": "2026-09-30T12:42:41+00:00"
     },
     {
+      "channel_id": "like_gecko_chrome_150_0_0_0_safari_537_36_edg_150_0_0_0_group_title_general_chan",
+      "name": "like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0\" group-title=\"General\",Channel 8 Krasnoyarsk HD",
+      "url": "https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8",
+      "country": "RU",
+      "languages": [],
+      "categories": [
+        "general"
+      ],
+      "logo": "https://i.imgur.com/q3JCAC3.png",
+      "tvg_id": "Channel8Krasnoyarsk.ru@HD",
+      "website": "",
+      "source": "https://iptv-org.github.io/iptv/countries/ru.m3u",
+      "protocol": "hls",
+      "status": "online",
+      "latency_ms": 1322.8,
+      "resolution": "",
+      "bitrate": 0,
+      "reason": "ok",
+      "score": 44.99999999999999,
+      "epg_url": "",
+      "attempts": 2,
+      "checked_at": "2026-09-30T12:42:41+00:00"
+    }
+  ],
+  "che": [
+    {
       "channel_id": "che",
       "name": "Che!",
       "url": "http://flussonic.linkintel.ru/che/index.m3u8",
@@ -1214,7 +1355,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:41+00:00"
-    },
+    }
+  ],
+  "channel_one_russia_hd": [
     {
       "channel_id": "channel_one_russia_hd",
       "name": "Channel One (Russia) HD",
@@ -1238,7 +1381,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:41+00:00"
-    },
+    }
+  ],
+  "bridge_hits": [
     {
       "channel_id": "bridge_hits",
       "name": "BRIDGE Hits",
@@ -1262,7 +1407,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:40+00:00"
-    },
+    }
+  ],
+  "bst": [
     {
       "channel_id": "bst",
       "name": "BST",
@@ -1286,7 +1433,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:40+00:00"
-    },
+    }
+  ],
+  "cinema_russia": [
     {
       "channel_id": "cinema_russia",
       "name": "Cinema (Russia)",
@@ -1310,7 +1459,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "channel_10_russia": [
     {
       "channel_id": "channel_10_russia",
       "name": "Channel 10 (Russia)",
@@ -1334,7 +1485,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:41+00:00"
-    },
+    }
+  ],
+  "channel_12": [
     {
       "channel_id": "channel_12",
       "name": "Channel 12",
@@ -1358,7 +1511,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:41+00:00"
-    },
+    }
+  ],
+  "city_eden_birma_play": [
     {
       "channel_id": "city_eden_birma_play",
       "name": "City Eden Birma Play",
@@ -1382,7 +1537,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "city_eden_autogid": [
     {
       "channel_id": "city_eden_autogid",
       "name": "City Eden AutoGid",
@@ -1406,7 +1563,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "city_eden_classic_music": [
     {
       "channel_id": "city_eden_classic_music",
       "name": "City Eden Classic Music",
@@ -1430,7 +1589,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "city_eden_kinoart": [
     {
       "channel_id": "city_eden_kinoart",
       "name": "City Eden KinoArt",
@@ -1454,7 +1615,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "city_eden_kinoasia": [
     {
       "channel_id": "city_eden_kinoasia",
       "name": "City Eden KinoAsia",
@@ -1478,7 +1641,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "city_eden_kinodok": [
     {
       "channel_id": "city_eden_kinodok",
       "name": "City Eden KinoDok",
@@ -1502,7 +1667,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "city_eden_kinoklassika": [
     {
       "channel_id": "city_eden_kinoklassika",
       "name": "City Eden KinoKlassika",
@@ -1526,7 +1693,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "city_eden_kinodrama": [
     {
       "channel_id": "city_eden_kinodrama",
       "name": "City Eden KinoDrama",
@@ -1550,7 +1719,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "city_eden_kinokomediya": [
     {
       "channel_id": "city_eden_kinokomediya",
       "name": "City Eden KinoKomediya",
@@ -1574,7 +1745,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:43+00:00"
-    },
+    }
+  ],
+  "city_eden_kinoaction": [
     {
       "channel_id": "city_eden_kinoaction",
       "name": "City Eden KinoAction",
@@ -1598,7 +1771,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "classic_music": [
     {
       "channel_id": "classic_music",
       "name": "Classic Music",
@@ -1622,7 +1797,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:43+00:00"
-    },
+    }
+  ],
+  "city_eden_kinomistika": [
     {
       "channel_id": "city_eden_kinomistika",
       "name": "City Eden KinoMistika",
@@ -1646,7 +1823,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:43+00:00"
-    },
+    }
+  ],
+  "city_eden_medzdrav": [
     {
       "channel_id": "city_eden_medzdrav",
       "name": "City Eden MedZdrav",
@@ -1670,7 +1849,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:43+00:00"
-    },
+    }
+  ],
+  "city_eden_play": [
     {
       "channel_id": "city_eden_play",
       "name": "City Eden Play",
@@ -1694,7 +1875,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:43+00:00"
-    },
+    }
+  ],
+  "city_eden_kinofantastika": [
     {
       "channel_id": "city_eden_kinofantastika",
       "name": "City Eden KinoFantastika",
@@ -1718,7 +1901,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "city_eden_kinodetektiv": [
     {
       "channel_id": "city_eden_kinodetektiv",
       "name": "City Eden KinoDetektiv",
@@ -1742,7 +1927,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:42+00:00"
-    },
+    }
+  ],
+  "city_eden_recepty_gurmana": [
     {
       "channel_id": "city_eden_recepty_gurmana",
       "name": "City Eden Recepty Gurmana",
@@ -1766,7 +1953,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:43+00:00"
-    },
+    }
+  ],
+  "city_eden_sirtaki_tv": [
     {
       "channel_id": "city_eden_sirtaki_tv",
       "name": "City Eden Sirtaki TV",
@@ -1790,7 +1979,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:43+00:00"
-    },
+    }
+  ],
+  "city_eden_tv": [
     {
       "channel_id": "city_eden_tv",
       "name": "City Eden TV",
@@ -1814,7 +2005,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:43+00:00"
-    },
+    }
+  ],
+  "city_eden_telenovella": [
     {
       "channel_id": "city_eden_telenovella",
       "name": "City Eden TeleNovella",
@@ -1838,7 +2031,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:43+00:00"
-    },
+    }
+  ],
+  "current_time_tv": [
     {
       "channel_id": "current_time_tv",
       "name": "Current Time TV",
@@ -1862,7 +2057,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:43+00:00"
-    },
+    }
+  ],
+  "dikaya_okhota_hd": [
     {
       "channel_id": "dikaya_okhota_hd",
       "name": "Dikaya okhota HD",
@@ -1886,7 +2083,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:44+00:00"
-    },
+    }
+  ],
+  "dikaya_rybalka_hd": [
     {
       "channel_id": "dikaya_rybalka_hd",
       "name": "Dikaya rybalka HD",
@@ -1910,7 +2109,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:44+00:00"
-    },
+    }
+  ],
+  "555": [
     {
       "channel_id": "555",
       "name": "555",
@@ -1934,7 +2135,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:37+00:00"
-    },
+    }
+  ],
+  "dom_kino": [
     {
       "channel_id": "dom_kino",
       "name": "Dom kino",
@@ -1958,7 +2161,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:44+00:00"
-    },
+    }
+  ],
+  "dancehits80": [
     {
       "channel_id": "dancehits80",
       "name": "DanceHits80",
@@ -1982,7 +2187,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:44+00:00"
-    },
+    }
+  ],
+  "dom_kino_premium_hd": [
     {
       "channel_id": "dom_kino_premium_hd",
       "name": "Dom kino Premium HD",
@@ -2006,7 +2213,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:44+00:00"
-    },
+    }
+  ],
+  "домашний": [
     {
       "channel_id": "домашний",
       "name": "Домашний",
@@ -2030,7 +2239,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:45+00:00"
-    },
+    }
+  ],
+  "like_gecko_chrome_149_0_0_0_safari_537_36_group_title_movies_dorama_hd": [
     {
       "channel_id": "like_gecko_chrome_149_0_0_0_safari_537_36_group_title_movies_dorama_hd",
       "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Movies\",Dorama HD",
@@ -2054,7 +2265,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:45+00:00"
-    },
+    }
+  ],
+  "dagestan": [
     {
       "channel_id": "dagestan",
       "name": "Dagestan",
@@ -2078,7 +2291,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:44+00:00"
-    },
+    }
+  ],
+  "detskiy": [
     {
       "channel_id": "detskiy",
       "name": "Detskiy",
@@ -2102,7 +2317,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:44+00:00"
-    },
+    }
+  ],
+  "duma_tv": [
     {
       "channel_id": "duma_tv",
       "name": "Duma TV",
@@ -2126,7 +2343,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:45+00:00"
-    },
+    }
+  ],
+  "dushevnoe_hd": [
     {
       "channel_id": "dushevnoe_hd",
       "name": "Dushevnoe HD",
@@ -2150,7 +2369,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:45+00:00"
-    },
+    }
+  ],
+  "drive": [
     {
       "channel_id": "drive",
       "name": "Drive",
@@ -2174,7 +2395,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:45+00:00"
-    },
+    }
+  ],
+  "domashnie_zhivotnye": [
     {
       "channel_id": "domashnie_zhivotnye",
       "name": "Domashnie Zhivotnye",
@@ -2198,7 +2421,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:45+00:00"
-    },
+    }
+  ],
+  "enisey": [
     {
       "channel_id": "enisey",
       "name": "Enisey",
@@ -2222,7 +2447,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:45+00:00"
-    },
+    }
+  ],
+  "evrokino_hd": [
     {
       "channel_id": "evrokino_hd",
       "name": "Evrokino HD",
@@ -2246,7 +2473,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:46+00:00"
-    },
+    }
+  ],
+  "extreme_sports_channel": [
     {
       "channel_id": "extreme_sports_channel",
       "name": "Extreme Sports Channel",
@@ -2270,7 +2499,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:46+00:00"
-    },
+    }
+  ],
+  "fashion_lifestyle": [
     {
       "channel_id": "fashion_lifestyle",
       "name": "Fashion&LifeStyle",
@@ -2294,7 +2525,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:46+00:00"
-    },
+    }
+  ],
+  "eurasia": [
     {
       "channel_id": "eurasia",
       "name": "Eurasia",
@@ -2318,7 +2551,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:45+00:00"
-    },
+    }
+  ],
+  "fashiontv": [
     {
       "channel_id": "fashiontv",
       "name": "FashionTV",
@@ -2342,7 +2577,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:47+00:00"
-    },
+    }
+  ],
+  "fon_music": [
     {
       "channel_id": "fon_music",
       "name": "FON Music",
@@ -2366,7 +2603,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:48+00:00"
-    },
+    }
+  ],
+  "first_music_channel": [
     {
       "channel_id": "first_music_channel",
       "name": "First Music Channel",
@@ -2390,7 +2629,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:47+00:00"
-    },
+    }
+  ],
+  "fox_russia": [
     {
       "channel_id": "fox_russia",
       "name": "Fox (Russia)",
@@ -2414,7 +2655,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:49+00:00"
-    },
+    }
+  ],
+  "friday": [
     {
       "channel_id": "friday",
       "name": "Friday!",
@@ -2438,7 +2681,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:49+00:00"
-    },
+    }
+  ],
+  "fox_life": [
     {
       "channel_id": "fox_life",
       "name": "Fox Life",
@@ -2462,7 +2707,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:49+00:00"
-    },
+    }
+  ],
+  "govorit_moskva": [
     {
       "channel_id": "govorit_moskva",
       "name": "Govorit Moskva",
@@ -2486,7 +2733,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:50+00:00"
-    },
+    }
+  ],
+  "gubernia_samara": [
     {
       "channel_id": "gubernia_samara",
       "name": "Gubernia Samara",
@@ -2510,7 +2759,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:52+00:00"
-    },
+    }
+  ],
+  "gulli_girl": [
     {
       "channel_id": "gulli_girl",
       "name": "Gulli Girl",
@@ -2534,7 +2785,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:52+00:00"
-    },
+    }
+  ],
+  "groznyj": [
     {
       "channel_id": "groznyj",
       "name": "Groznyj",
@@ -2558,7 +2811,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:51+00:00"
-    },
+    }
+  ],
+  "indiyskoye_kino": [
     {
       "channel_id": "indiyskoye_kino",
       "name": "Indiyskoye Kino",
@@ -2582,7 +2837,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:53+00:00"
-    },
+    }
+  ],
+  "horoshee_kino": [
     {
       "channel_id": "horoshee_kino",
       "name": "Horoshee Kino",
@@ -2606,7 +2863,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:53+00:00"
-    },
+    }
+  ],
+  "illusion": [
     {
       "channel_id": "illusion",
       "name": "Illusion+",
@@ -2630,7 +2889,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:53+00:00"
-    },
+    }
+  ],
+  "hope_channel_russia": [
     {
       "channel_id": "hope_channel_russia",
       "name": "Hope Channel Russia",
@@ -2654,7 +2915,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:53+00:00"
-    },
+    }
+  ],
+  "kapitan_fantastika": [
     {
       "channel_id": "kapitan_fantastika",
       "name": "Kapitan Fantastika",
@@ -2678,7 +2941,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:53+00:00"
-    },
+    }
+  ],
+  "istoki": [
     {
       "channel_id": "istoki",
       "name": "Istoki",
@@ -2702,7 +2967,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:53+00:00"
-    },
+    }
+  ],
+  "izvestia": [
     {
       "channel_id": "izvestia",
       "name": "Izvestia",
@@ -2726,7 +2993,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:53+00:00"
-    },
+    }
+  ],
+  "ingushetia": [
     {
       "channel_id": "ingushetia",
       "name": "Ingushetia",
@@ -2750,7 +3019,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:53+00:00"
-    },
+    }
+  ],
+  "kino_1_russia": [
     {
       "channel_id": "kino_1_russia",
       "name": "Kino 1 (Russia)",
@@ -2774,7 +3045,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:54+00:00"
-    },
+    }
+  ],
+  "kino_tv_hd": [
     {
       "channel_id": "kino_tv_hd",
       "name": "Kino TV HD",
@@ -2798,7 +3071,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:55+00:00"
-    },
+    }
+  ],
+  "kinohit": [
     {
       "channel_id": "kinohit",
       "name": "KinoHit",
@@ -2823,7 +3098,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:55+00:00"
-    },
+    }
+  ],
+  "kinomix": [
     {
       "channel_id": "kinomix",
       "name": "Kinomix",
@@ -2847,7 +3124,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:56+00:00"
-    },
+    }
+  ],
+  "kinopremyera": [
     {
       "channel_id": "kinopremyera",
       "name": "Kinopremyera",
@@ -2871,7 +3150,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:56+00:00"
-    },
+    }
+  ],
+  "kinosemja": [
     {
       "channel_id": "kinosemja",
       "name": "Kinosemja",
@@ -2895,7 +3176,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:56+00:00"
-    },
+    }
+  ],
+  "kinouzhas": [
     {
       "channel_id": "kinouzhas",
       "name": "Kinouzhas",
@@ -2919,7 +3202,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:56+00:00"
-    },
+    }
+  ],
+  "kinokomedija": [
     {
       "channel_id": "kinokomedija",
       "name": "Kinokomedija",
@@ -2943,7 +3228,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:55+00:00"
-    },
+    }
+  ],
+  "komedia": [
     {
       "channel_id": "komedia",
       "name": "Komedia",
@@ -2967,7 +3254,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:57+00:00"
-    },
+    }
+  ],
+  "komediynoe_hd": [
     {
       "channel_id": "komediynoe_hd",
       "name": "Komediynoe HD",
@@ -2991,7 +3280,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:57+00:00"
-    },
+    }
+  ],
+  "krik_tv": [
     {
       "channel_id": "krik_tv",
       "name": "Krik-TV",
@@ -3015,7 +3306,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:57+00:00"
-    },
+    }
+  ],
+  "kongress_tv": [
     {
       "channel_id": "kongress_tv",
       "name": "Kongress TV",
@@ -3039,7 +3332,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:57+00:00"
-    },
+    }
+  ],
+  "kulinar_tv": [
     {
       "channel_id": "kulinar_tv",
       "name": "Kulinar TV",
@@ -3063,7 +3358,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:58+00:00"
-    },
+    }
+  ],
+  "kuban_24": [
     {
       "channel_id": "kuban_24",
       "name": "Kuban 24",
@@ -3087,7 +3384,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:57+00:00"
-    },
+    }
+  ],
+  "kuraj_tv": [
     {
       "channel_id": "kuraj_tv",
       "name": "Kuraj-TV",
@@ -3111,7 +3410,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:58+00:00"
-    },
+    }
+  ],
+  "kvn_tv": [
     {
       "channel_id": "kvn_tv",
       "name": "KVN TV",
@@ -3135,7 +3436,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:58+00:00"
-    },
+    }
+  ],
+  "ldpr_tv": [
     {
       "channel_id": "ldpr_tv",
       "name": "LDPR TV",
@@ -3159,7 +3462,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:58+00:00"
-    },
+    }
+  ],
+  "kuhnya": [
     {
       "channel_id": "kuhnya",
       "name": "Kuhnya",
@@ -3183,7 +3488,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:58+00:00"
-    },
+    }
+  ],
+  "kuban_24_sd": [
     {
       "channel_id": "kuban_24_sd",
       "name": "Kuban 24 SD",
@@ -3207,7 +3514,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:58+00:00"
-    },
+    }
+  ],
+  "mama": [
     {
       "channel_id": "mama",
       "name": "Mama",
@@ -3231,7 +3540,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:59+00:00"
-    },
+    }
+  ],
+  "maidan": [
     {
       "channel_id": "maidan",
       "name": "Maidan",
@@ -3255,7 +3566,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:59+00:00"
-    },
+    }
+  ],
+  "match_boets": [
     {
       "channel_id": "match_boets",
       "name": "Match! Boets",
@@ -3279,7 +3592,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:00+00:00"
-    },
+    }
+  ],
+  "magnat": [
     {
       "channel_id": "magnat",
       "name": "Magnat",
@@ -3303,7 +3618,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:59+00:00"
-    },
+    }
+  ],
+  "lugansk_24": [
     {
       "channel_id": "lugansk_24",
       "name": "Lugansk 24",
@@ -3327,7 +3644,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:59+00:00"
-    },
+    }
+  ],
+  "mcm_top": [
     {
       "channel_id": "mcm_top",
       "name": "MCM Top",
@@ -3351,7 +3670,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:00+00:00"
-    },
+    }
+  ],
+  "mezzo_live": [
     {
       "channel_id": "mezzo_live",
       "name": "Mezzo Live",
@@ -3375,7 +3696,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:01+00:00"
-    },
+    }
+  ],
+  "мир_24": [
     {
       "channel_id": "мир_24",
       "name": "МИР 24",
@@ -3399,7 +3722,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:01+00:00"
-    },
+    }
+  ],
+  "mir_hd": [
     {
       "channel_id": "mir_hd",
       "name": "Mir HD",
@@ -3423,7 +3748,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:02+00:00"
-    },
+    }
+  ],
+  "mir_seriala": [
     {
       "channel_id": "mir_seriala",
       "name": "Mir Seriala",
@@ -3447,7 +3774,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:03+00:00"
-    },
+    }
+  ],
+  "like_gecko_chrome_144_0_0_0_safari_537_36_group_title_general_mir": [
     {
       "channel_id": "like_gecko_chrome_144_0_0_0_safari_537_36_group_title_general_mir",
       "name": "like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Mir",
@@ -3471,7 +3800,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:02+00:00"
-    },
+    }
+  ],
+  "mir_belogorya": [
     {
       "channel_id": "mir_belogorya",
       "name": "Mir Belogorya",
@@ -3495,7 +3826,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:02+00:00"
-    },
+    }
+  ],
+  "mma_tv_com": [
     {
       "channel_id": "mma_tv_com",
       "name": "MMA-TV.com",
@@ -3519,7 +3852,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:03+00:00"
-    },
+    }
+  ],
+  "mir_kazakhstan": [
     {
       "channel_id": "mir_kazakhstan",
       "name": "Mir Kazakhstan",
@@ -3543,7 +3878,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:02+00:00"
-    },
+    }
+  ],
+  "moya_planeta": [
     {
       "channel_id": "moya_planeta",
       "name": "Moya Planeta",
@@ -3567,7 +3904,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:03+00:00"
-    },
+    }
+  ],
+  "moya_stikhiya_hd": [
     {
       "channel_id": "moya_stikhiya_hd",
       "name": "Moya stikhiya HD",
@@ -3591,7 +3930,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:03+00:00"
-    },
+    }
+  ],
+  "mtv_volgograd": [
     {
       "channel_id": "mtv_volgograd",
       "name": "MTV Volgograd",
@@ -3615,7 +3956,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:03+00:00"
-    },
+    }
+  ],
+  "moskva_doveriye": [
     {
       "channel_id": "moskva_doveriye",
       "name": "Moskva. Doveriye",
@@ -3639,7 +3982,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:03+00:00"
-    },
+    }
+  ],
+  "муз_тв": [
     {
       "channel_id": "муз_тв",
       "name": "МУЗ-ТВ",
@@ -3663,7 +4008,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:04+00:00"
-    },
+    }
+  ],
+  "muzhskoe_kino": [
     {
       "channel_id": "muzhskoe_kino",
       "name": "Muzhskoe kino",
@@ -3688,7 +4035,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:04+00:00"
-    },
+    }
+  ],
+  "muz_soyuz": [
     {
       "channel_id": "muz_soyuz",
       "name": "Muz Soyuz",
@@ -3712,7 +4061,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:04+00:00"
-    },
+    }
+  ],
+  "leomax_24": [
     {
       "channel_id": "leomax_24",
       "name": "Leomax 24",
@@ -3736,7 +4087,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:42:59+00:00"
-    },
+    }
+  ],
+  "muzyka_live": [
     {
       "channel_id": "muzyka_live",
       "name": "Muzyka Live",
@@ -3760,7 +4113,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:05+00:00"
-    },
+    }
+  ],
+  "muzyka_pervogo": [
     {
       "channel_id": "muzyka_pervogo",
       "name": "Muzyka Pervogo",
@@ -3784,7 +4139,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:05+00:00"
-    },
+    }
+  ],
+  "muzyka_1": [
     {
       "channel_id": "muzyka_1",
       "name": "Muzyka 1",
@@ -3808,7 +4165,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:04+00:00"
-    },
+    }
+  ],
+  "muzyka_kino": [
     {
       "channel_id": "muzyka_kino",
       "name": "Muzyka Kino",
@@ -3832,7 +4191,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:04+00:00"
-    },
+    }
+  ],
+  "nano_hd": [
     {
       "channel_id": "nano_hd",
       "name": "Nano HD",
@@ -3856,7 +4217,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:05+00:00"
-    },
+    }
+  ],
+  "moskva_24": [
     {
       "channel_id": "moskva_24",
       "name": "Moskva 24",
@@ -3880,7 +4243,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:03+00:00"
-    },
+    }
+  ],
+  "moy_mir": [
     {
       "channel_id": "moy_mir",
       "name": "Moy mir",
@@ -3904,7 +4269,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:03+00:00"
-    },
+    }
+  ],
+  "nashe_muzhskoe_hd": [
     {
       "channel_id": "nashe_muzhskoe_hd",
       "name": "Nashe muzhskoe HD",
@@ -3929,7 +4296,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:05+00:00"
-    },
+    }
+  ],
+  "nickelodeon_russia": [
     {
       "channel_id": "nickelodeon_russia",
       "name": "Nickelodeon (Russia)",
@@ -3953,7 +4322,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:06+00:00"
-    },
+    }
+  ],
+  "nevskiy": [
     {
       "channel_id": "nevskiy",
       "name": "Nevskiy",
@@ -3977,7 +4348,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:06+00:00"
-    },
+    }
+  ],
+  "nika_tv": [
     {
       "channel_id": "nika_tv",
       "name": "Nika TV",
@@ -4001,7 +4374,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:06+00:00"
-    },
+    }
+  ],
+  "novorossiya_tv": [
     {
       "channel_id": "novorossiya_tv",
       "name": "Novorossiya TV",
@@ -4025,7 +4400,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:07+00:00"
-    },
+    }
+  ],
+  "ntm": [
     {
       "channel_id": "ntm",
       "name": "NTM",
@@ -4049,7 +4426,35 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:07+00:00"
-    },
+    }
+  ],
+  "novgorobltv": [
+    {
+      "channel_id": "novgorobltv",
+      "name": "NovgorOblTV",
+      "url": "https://zabava-block-htvod.cdn.ngenix.net/rtk_block.m3u8",
+      "country": "RU",
+      "languages": [],
+      "categories": [
+        "general"
+      ],
+      "logo": "https://i.imgur.com/2JspHVY.png",
+      "tvg_id": "NovgorOblTV.ru@HD",
+      "website": "",
+      "source": "https://iptv-org.github.io/iptv/countries/ru.m3u",
+      "protocol": "hls",
+      "status": "online",
+      "latency_ms": 1518.4,
+      "resolution": "",
+      "bitrate": 0,
+      "reason": "ok",
+      "score": 44.99999999999999,
+      "epg_url": "",
+      "attempts": 2,
+      "checked_at": "2026-09-30T12:43:07+00:00"
+    }
+  ],
+  "nts": [
     {
       "channel_id": "nts",
       "name": "NTS",
@@ -4073,7 +4478,35 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:07+00:00"
-    },
+    }
+  ],
+  "ntk_21": [
+    {
+      "channel_id": "ntk_21",
+      "name": "NTK 21",
+      "url": "https://zabava-block-htvod.cdn.ngenix.net/rtk_block.m3u8",
+      "country": "RU",
+      "languages": [],
+      "categories": [
+        "general"
+      ],
+      "logo": "https://i.imgur.com/W9s1flH.png",
+      "tvg_id": "NTK21.ru@HD",
+      "website": "",
+      "source": "https://iptv-org.github.io/iptv/countries/ru.m3u",
+      "protocol": "hls",
+      "status": "online",
+      "latency_ms": 1519.9,
+      "resolution": "",
+      "bitrate": 0,
+      "reason": "ok",
+      "score": 44.99999999999999,
+      "epg_url": "",
+      "attempts": 2,
+      "checked_at": "2026-09-30T12:43:07+00:00"
+    }
+  ],
+  "ntv_series": [
     {
       "channel_id": "ntv_series",
       "name": "NTV Series",
@@ -4097,7 +4530,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:09+00:00"
-    },
+    }
+  ],
+  "ntv_russia_hd": [
     {
       "channel_id": "ntv_russia_hd",
       "name": "NTV (Russia) HD",
@@ -4121,7 +4556,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:09+00:00"
-    },
+    }
+  ],
+  "ntv_hit": [
     {
       "channel_id": "ntv_hit",
       "name": "NTV-Hit",
@@ -4145,7 +4582,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:10+00:00"
-    },
+    }
+  ],
+  "o": [
     {
       "channel_id": "o",
       "name": "O!",
@@ -4169,7 +4608,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:11+00:00"
-    },
+    }
+  ],
+  "nvk_sakha": [
     {
       "channel_id": "nvk_sakha",
       "name": "NVK Sakha",
@@ -4193,7 +4634,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:10+00:00"
-    },
+    }
+  ],
+  "ohotnik_i_rybolov_hd": [
     {
       "channel_id": "ohotnik_i_rybolov_hd",
       "name": "Ohotnik i rybolov HD",
@@ -4217,7 +4660,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:11+00:00"
-    },
+    }
+  ],
+  "okko_prajm_sport": [
     {
       "channel_id": "okko_prajm_sport",
       "name": "Okko Prajm Sport",
@@ -4241,7 +4686,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:11+00:00"
-    },
+    }
+  ],
+  "okko_sport": [
     {
       "channel_id": "okko_sport",
       "name": "Okko Sport",
@@ -4265,7 +4712,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:11+00:00"
-    },
+    }
+  ],
+  "ohotnik_i_rybolov": [
     {
       "channel_id": "ohotnik_i_rybolov",
       "name": "Ohotnik i rybolov",
@@ -4289,7 +4738,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:11+00:00"
-    },
+    }
+  ],
+  "oplot_tv_sd": [
     {
       "channel_id": "oplot_tv_sd",
       "name": "Oplot TV SD",
@@ -4313,7 +4764,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:12+00:00"
-    },
+    }
+  ],
+  "ostrosyuzhetnoye_hd": [
     {
       "channel_id": "ostrosyuzhetnoye_hd",
       "name": "Ostrosyuzhetnoye HD",
@@ -4337,7 +4790,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:12+00:00"
-    },
+    }
+  ],
+  "okhota_i_rybalka": [
     {
       "channel_id": "okhota_i_rybalka",
       "name": "Okhota i rybalka",
@@ -4361,7 +4816,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:11+00:00"
-    },
+    }
+  ],
+  "patriot": [
     {
       "channel_id": "patriot",
       "name": "Patriot",
@@ -4385,7 +4842,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:12+00:00"
-    },
+    }
+  ],
+  "osn": [
     {
       "channel_id": "osn",
       "name": "OSN",
@@ -4409,7 +4868,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:12+00:00"
-    },
+    }
+  ],
+  "otv_prim": [
     {
       "channel_id": "otv_prim",
       "name": "OTV-Prim",
@@ -4433,7 +4894,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:12+00:00"
-    },
+    }
+  ],
+  "perviy_otdel": [
     {
       "channel_id": "perviy_otdel",
       "name": "Perviy otdel",
@@ -4457,7 +4920,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:12+00:00"
-    },
+    }
+  ],
+  "otkritiy_mir_zdorove": [
     {
       "channel_id": "otkritiy_mir_zdorove",
       "name": "Otkritiy mir. Zdorove",
@@ -4481,7 +4946,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:12+00:00"
-    },
+    }
+  ],
+  "отр": [
     {
       "channel_id": "отр",
       "name": "ОТР",
@@ -4505,7 +4972,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:12+00:00"
-    },
+    }
+  ],
+  "pes": [
     {
       "channel_id": "pes",
       "name": "Pes",
@@ -4529,7 +4998,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:13+00:00"
-    },
+    }
+  ],
+  "premialnoe_hd": [
     {
       "channel_id": "premialnoe_hd",
       "name": "Premialnoe HD",
@@ -4553,7 +5024,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:13+00:00"
-    },
+    }
+  ],
+  "priklyucheniya_hd": [
     {
       "channel_id": "priklyucheniya_hd",
       "name": "Priklyucheniya HD",
@@ -4577,7 +5050,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:14+00:00"
-    },
+    }
+  ],
+  "pervyy_respublikanskiy": [
     {
       "channel_id": "pervyy_respublikanskiy",
       "name": "Pervyy Respublikanskiy",
@@ -4601,7 +5076,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:13+00:00"
-    },
+    }
+  ],
+  "prima_russia": [
     {
       "channel_id": "prima_russia",
       "name": "Prima (Russia)",
@@ -4625,7 +5102,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:14+00:00"
-    },
+    }
+  ],
+  "priklyucheniya": [
     {
       "channel_id": "priklyucheniya",
       "name": "Priklyucheniya",
@@ -4649,7 +5128,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:13+00:00"
-    },
+    }
+  ],
+  "radio_1_russia": [
     {
       "channel_id": "radio_1_russia",
       "name": "Radio 1 (Russia)",
@@ -4673,7 +5154,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:14+00:00"
-    },
+    }
+  ],
+  "prodvizhenie": [
     {
       "channel_id": "prodvizhenie",
       "name": "Prodvizhenie",
@@ -4697,7 +5180,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:14+00:00"
-    },
+    }
+  ],
+  "prosveshchenie": [
     {
       "channel_id": "prosveshchenie",
       "name": "Prosveshchenie",
@@ -4721,7 +5206,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:14+00:00"
-    },
+    }
+  ],
+  "radio_rossii": [
     {
       "channel_id": "radio_rossii",
       "name": "Radio Rossii",
@@ -4745,7 +5232,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:15+00:00"
-    },
+    }
+  ],
+  "pro_business": [
     {
       "channel_id": "pro_business",
       "name": "Pro Business",
@@ -4769,7 +5258,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:14+00:00"
-    },
+    }
+  ],
+  "red_line": [
     {
       "channel_id": "red_line",
       "name": "Red Line",
@@ -4793,7 +5284,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:15+00:00"
-    },
+    }
+  ],
+  "retro": [
     {
       "channel_id": "retro",
       "name": "Retro",
@@ -4817,7 +5310,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:15+00:00"
-    },
+    }
+  ],
+  "radio_mir": [
     {
       "channel_id": "radio_mir",
       "name": "Radio Mir",
@@ -4841,7 +5336,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:14+00:00"
-    },
+    }
+  ],
+  "rodnoe_kino": [
     {
       "channel_id": "rodnoe_kino",
       "name": "Rodnoe Kino",
@@ -4865,7 +5362,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:15+00:00"
-    },
+    }
+  ],
+  "radio_shanson": [
     {
       "channel_id": "radio_shanson",
       "name": "Radio Shanson",
@@ -4889,7 +5388,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:15+00:00"
-    },
+    }
+  ],
+  "rt_balkan": [
     {
       "channel_id": "rt_balkan",
       "name": "RT Balkan",
@@ -4913,7 +5414,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:16+00:00"
-    },
+    }
+  ],
+  "like_gecko_chrome_146_0_0_0_safari_537_36_opr_130_0_0_0_edition_std_2_group_titl": [
     {
       "channel_id": "like_gecko_chrome_146_0_0_0_safari_537_36_opr_130_0_0_0_edition_std_2_group_titl",
       "name": "like Gecko) Chrome/146.0.0.0 Safari/537.36 OPR/130.0.0.0 (Edition std-2)\" group-title=\"General\",Rossiya 1 Vainah",
@@ -4937,7 +5440,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:16+00:00"
-    },
+    }
+  ],
+  "rt_documentary_russian": [
     {
       "channel_id": "rt_documentary_russian",
       "name": "RT Documentary Russian",
@@ -4961,7 +5466,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:16+00:00"
-    },
+    }
+  ],
+  "like_gecko_chrome_149_0_0_0_safari_537_36_group_title_general_rtvi": [
     {
       "channel_id": "like_gecko_chrome_149_0_0_0_safari_537_36_group_title_general_rtvi",
       "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"General\",RTVi",
@@ -4985,7 +5492,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:17+00:00"
-    },
+    }
+  ],
+  "osetiya_iryston": [
     {
       "channel_id": "osetiya_iryston",
       "name": "Osetiya-Iryston",
@@ -5009,7 +5518,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:12+00:00"
-    },
+    }
+  ],
+  "ru_tv": [
     {
       "channel_id": "ru_tv",
       "name": "RU.TV",
@@ -5033,7 +5544,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:17+00:00"
-    },
+    }
+  ],
+  "russia_1_hd": [
     {
       "channel_id": "russia_1_hd",
       "name": "Russia-1 HD",
@@ -5057,7 +5570,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:18+00:00"
-    },
+    }
+  ],
+  "russia_24_hd": [
     {
       "channel_id": "russia_24_hd",
       "name": "Russia-24 HD",
@@ -5081,7 +5596,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:18+00:00"
-    },
+    }
+  ],
+  "russia_k": [
     {
       "channel_id": "russia_k",
       "name": "Russia-K",
@@ -5105,7 +5622,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:18+00:00"
-    },
+    }
+  ],
+  "russia_k_hd": [
     {
       "channel_id": "russia_k_hd",
       "name": "Russia-K HD",
@@ -5129,7 +5648,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:20+00:00"
-    },
+    }
+  ],
+  "russian_musicbox": [
     {
       "channel_id": "russian_musicbox",
       "name": "Russian MusicBox",
@@ -5153,7 +5674,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:20+00:00"
-    },
+    }
+  ],
+  "russkiy_detektiv": [
     {
       "channel_id": "russkiy_detektiv",
       "name": "Russkiy Detektiv",
@@ -5177,7 +5700,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:21+00:00"
-    },
+    }
+  ],
+  "rybolov": [
     {
       "channel_id": "rybolov",
       "name": "Rybolov",
@@ -5201,7 +5726,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:21+00:00"
-    },
+    }
+  ],
+  "russkiy_bestseller": [
     {
       "channel_id": "russkiy_bestseller",
       "name": "Russkiy Bestseller",
@@ -5225,7 +5752,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:20+00:00"
-    },
+    }
+  ],
+  "salyam": [
     {
       "channel_id": "salyam",
       "name": "Salyam",
@@ -5249,7 +5778,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:21+00:00"
-    },
+    }
+  ],
+  "sankt_peterburg_hd": [
     {
       "channel_id": "sankt_peterburg_hd",
       "name": "Sankt-Peterburg HD",
@@ -5273,7 +5804,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:22+00:00"
-    },
+    }
+  ],
+  "saphire": [
     {
       "channel_id": "saphire",
       "name": "Saphire",
@@ -5297,7 +5830,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:22+00:00"
-    },
+    }
+  ],
+  "samara_gis": [
     {
       "channel_id": "samara_gis",
       "name": "Samara-GIS",
@@ -5321,7 +5856,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:21+00:00"
-    },
+    }
+  ],
+  "sarafan": [
     {
       "channel_id": "sarafan",
       "name": "Sarafan",
@@ -5345,7 +5882,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:22+00:00"
-    },
+    }
+  ],
+  "ryzhiy": [
     {
       "channel_id": "ryzhiy",
       "name": "Ryzhiy",
@@ -5369,7 +5908,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:21+00:00"
-    },
+    }
+  ],
+  "s1": [
     {
       "channel_id": "s1",
       "name": "S1",
@@ -5393,7 +5934,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:21+00:00"
-    },
+    }
+  ],
+  "shokiruyushchee_hd": [
     {
       "channel_id": "shokiruyushchee_hd",
       "name": "Shokiruyushchee HD",
@@ -5417,7 +5960,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:23+00:00"
-    },
+    }
+  ],
+  "shef": [
     {
       "channel_id": "shef",
       "name": "Shef",
@@ -5441,7 +5986,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:23+00:00"
-    },
+    }
+  ],
+  "shanson_tv": [
     {
       "channel_id": "shanson_tv",
       "name": "Shanson TV",
@@ -5465,7 +6012,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:22+00:00"
-    },
+    }
+  ],
+  "sever": [
     {
       "channel_id": "sever",
       "name": "Sever",
@@ -5489,7 +6038,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:22+00:00"
-    },
+    }
+  ],
+  "shopping_live": [
     {
       "channel_id": "shopping_live",
       "name": "Shopping Live",
@@ -5513,7 +6064,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:23+00:00"
-    },
+    }
+  ],
+  "smotrim_100_muzhskoe": [
     {
       "channel_id": "smotrim_100_muzhskoe",
       "name": "Smotrim 100% Muzhskoe",
@@ -5537,7 +6090,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:23+00:00"
-    },
+    }
+  ],
+  "smotrim_100_detskoe": [
     {
       "channel_id": "smotrim_100_detskoe",
       "name": "Smotrim 100% Detskoe",
@@ -5561,7 +6116,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:23+00:00"
-    },
+    }
+  ],
+  "smotrim_100_lyubov": [
     {
       "channel_id": "smotrim_100_lyubov",
       "name": "Smotrim 100% Lyubov",
@@ -5585,7 +6142,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:23+00:00"
-    },
+    }
+  ],
+  "smotrim_100_prazdnik": [
     {
       "channel_id": "smotrim_100_prazdnik",
       "name": "Smotrim 100% Prazdnik",
@@ -5609,7 +6168,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:24+00:00"
-    },
+    }
+  ],
+  "smotrim_100_fakty": [
     {
       "channel_id": "smotrim_100_fakty",
       "name": "Smotrim 100% Fakty",
@@ -5633,7 +6194,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:23+00:00"
-    },
+    }
+  ],
+  "shchyolkovskoe_tv": [
     {
       "channel_id": "shchyolkovskoe_tv",
       "name": "Shchyolkovskoe TV",
@@ -5657,7 +6220,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:22+00:00"
-    },
+    }
+  ],
+  "smotrim_100_klassika": [
     {
       "channel_id": "smotrim_100_klassika",
       "name": "Smotrim 100% Klassika",
@@ -5681,7 +6246,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:23+00:00"
-    },
+    }
+  ],
+  "smotrim_chestnyy_detektiv": [
     {
       "channel_id": "smotrim_chestnyy_detektiv",
       "name": "Smotrim Chestnyy Detektiv",
@@ -5705,7 +6272,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:24+00:00"
-    },
+    }
+  ],
+  "solovyov_live": [
     {
       "channel_id": "solovyov_live",
       "name": "Solovyov Live",
@@ -5729,7 +6298,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:24+00:00"
-    },
+    }
+  ],
+  "sochi_live": [
     {
       "channel_id": "sochi_live",
       "name": "Sochi Live",
@@ -5753,7 +6324,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:24+00:00"
-    },
+    }
+  ],
+  "soyuz": [
     {
       "channel_id": "soyuz",
       "name": "Soyuz",
@@ -5777,7 +6350,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:24+00:00"
-    },
+    }
+  ],
+  "sochi24": [
     {
       "channel_id": "sochi24",
       "name": "Sochi24",
@@ -5801,7 +6376,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:24+00:00"
-    },
+    }
+  ],
+  "songtv_russia": [
     {
       "channel_id": "songtv_russia",
       "name": "SONGTV Russia",
@@ -5825,7 +6402,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:24+00:00"
-    },
+    }
+  ],
+  "start_air": [
     {
       "channel_id": "start_air",
       "name": "START Air",
@@ -5849,7 +6428,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:25+00:00"
-    },
+    }
+  ],
+  "sportivnyy": [
     {
       "channel_id": "sportivnyy",
       "name": "Sportivnyy",
@@ -5873,7 +6454,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:24+00:00"
-    },
+    }
+  ],
+  "star_cinema": [
     {
       "channel_id": "star_cinema",
       "name": "Star Cinema",
@@ -5897,7 +6480,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:25+00:00"
-    },
+    }
+  ],
+  "star_family": [
     {
       "channel_id": "star_family",
       "name": "Star Family",
@@ -5921,7 +6506,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:25+00:00"
-    },
+    }
+  ],
+  "sts_hd": [
     {
       "channel_id": "sts_hd",
       "name": "STS HD",
@@ -5945,7 +6532,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:25+00:00"
-    },
+    }
+  ],
+  "strana_fm": [
     {
       "channel_id": "strana_fm",
       "name": "Strana FM",
@@ -5969,7 +6558,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:25+00:00"
-    },
+    }
+  ],
+  "стс": [
     {
       "channel_id": "стс",
       "name": "СТС",
@@ -5993,7 +6584,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:25+00:00"
-    },
+    }
+  ],
+  "like_gecko_chrome_144_0_0_0_safari_537_36_group_title_family_sts_love": [
     {
       "channel_id": "like_gecko_chrome_144_0_0_0_safari_537_36_group_title_family_sts_love",
       "name": "like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Family\",STS Love",
@@ -6017,7 +6610,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:26+00:00"
-    },
+    }
+  ],
+  "tamyr": [
     {
       "channel_id": "tamyr",
       "name": "Tamyr",
@@ -6041,7 +6636,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:27+00:00"
-    },
+    }
+  ],
+  "subbota": [
     {
       "channel_id": "subbota",
       "name": "Subbota!",
@@ -6065,7 +6662,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:26+00:00"
-    },
+    }
+  ],
+  "surgut_24": [
     {
       "channel_id": "surgut_24",
       "name": "Surgut 24",
@@ -6089,7 +6688,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:26+00:00"
-    },
+    }
+  ],
+  "t24": [
     {
       "channel_id": "t24",
       "name": "T24",
@@ -6113,7 +6714,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:27+00:00"
-    },
+    }
+  ],
+  "svoyo_tv": [
     {
       "channel_id": "svoyo_tv",
       "name": "Svoyo TV",
@@ -6137,7 +6740,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:26+00:00"
-    },
+    }
+  ],
+  "tiji": [
     {
       "channel_id": "tiji",
       "name": "TiJi",
@@ -6161,7 +6766,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:27+00:00"
-    },
+    }
+  ],
+  "telekanal_krasnodar": [
     {
       "channel_id": "telekanal_krasnodar",
       "name": "Telekanal Krasnodar",
@@ -6185,7 +6792,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:27+00:00"
-    },
+    }
+  ],
+  "like_gecko_chrome_144_0_0_0_safari_537_36_group_title_cooking_telecafe_russia": [
     {
       "channel_id": "like_gecko_chrome_144_0_0_0_safari_537_36_group_title_cooking_telecafe_russia",
       "name": "like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Cooking\",Telecafe (Russia)",
@@ -6209,7 +6818,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:27+00:00"
-    },
+    }
+  ],
+  "teledom": [
     {
       "channel_id": "teledom",
       "name": "TeleDom",
@@ -6233,7 +6844,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:27+00:00"
-    },
+    }
+  ],
+  "tkr": [
     {
       "channel_id": "tkr",
       "name": "TKR",
@@ -6257,7 +6870,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:28+00:00"
-    },
+    }
+  ],
+  "telplus": [
     {
       "channel_id": "telplus",
       "name": "Telplus",
@@ -6281,7 +6896,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:27+00:00"
-    },
+    }
+  ],
+  "tnt4": [
     {
       "channel_id": "tnt4",
       "name": "TNT4",
@@ -6305,7 +6922,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:28+00:00"
-    },
+    }
+  ],
+  "tavriya": [
     {
       "channel_id": "tavriya",
       "name": "Tavriya",
@@ -6329,7 +6948,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:27+00:00"
-    },
+    }
+  ],
+  "tnt_international_belarus": [
     {
       "channel_id": "tnt_international_belarus",
       "name": "TNT International Belarus",
@@ -6353,7 +6974,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:28+00:00"
-    },
+    }
+  ],
+  "tonus": [
     {
       "channel_id": "tonus",
       "name": "Tonus",
@@ -6377,7 +7000,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:29+00:00"
-    },
+    }
+  ],
+  "тнт": [
     {
       "channel_id": "тнт",
       "name": "ТНТ",
@@ -6401,7 +7026,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:28+00:00"
-    },
+    }
+  ],
+  "tolk": [
     {
       "channel_id": "tolk",
       "name": "Tolk",
@@ -6425,7 +7052,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:29+00:00"
-    },
+    }
+  ],
+  "tooku": [
     {
       "channel_id": "tooku",
       "name": "Tooku",
@@ -6449,7 +7078,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:29+00:00"
-    },
+    }
+  ],
+  "travel_adventure_hd": [
     {
       "channel_id": "travel_adventure_hd",
       "name": "Travel+Adventure HD",
@@ -6473,7 +7104,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:29+00:00"
-    },
+    }
+  ],
+  "tnv_tatarstan": [
     {
       "channel_id": "tnv_tatarstan",
       "name": "TNV-Tatarstan",
@@ -6497,7 +7130,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:28+00:00"
-    },
+    }
+  ],
+  "trace_sport_stars_russia": [
     {
       "channel_id": "trace_sport_stars_russia",
       "name": "Trace Sport Stars Russia",
@@ -6521,7 +7156,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:29+00:00"
-    },
+    }
+  ],
+  "tochka_otryva": [
     {
       "channel_id": "tochka_otryva",
       "name": "Tochka otryva",
@@ -6545,7 +7182,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:28+00:00"
-    },
+    }
+  ],
+  "tv_21_international": [
     {
       "channel_id": "tv_21_international",
       "name": "TV 21 International",
@@ -6569,7 +7208,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:30+00:00"
-    },
+    }
+  ],
+  "tv_21": [
     {
       "channel_id": "tv_21",
       "name": "TV 21",
@@ -6593,7 +7234,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:30+00:00"
-    },
+    }
+  ],
+  "soyuzny": [
     {
       "channel_id": "soyuzny",
       "name": "Soyuzny",
@@ -6617,7 +7260,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:24+00:00"
-    },
+    }
+  ],
+  "tv_brics_russian": [
     {
       "channel_id": "tv_brics_russian",
       "name": "TV BRICS Russian",
@@ -6641,7 +7286,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:30+00:00"
-    },
+    }
+  ],
+  "tv_rain": [
     {
       "channel_id": "tv_rain",
       "name": "TV Rain",
@@ -6665,7 +7312,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:30+00:00"
-    },
+    }
+  ],
+  "tsargrad_tv": [
     {
       "channel_id": "tsargrad_tv",
       "name": "Tsargrad TV",
@@ -6689,7 +7338,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:30+00:00"
-    },
+    }
+  ],
+  "tv_3_hd": [
     {
       "channel_id": "tv_3_hd",
       "name": "TV-3 HD",
@@ -6713,7 +7364,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:30+00:00"
-    },
+    }
+  ],
+  "tv_3_belarus": [
     {
       "channel_id": "tv_3_belarus",
       "name": "TV-3 Belarus",
@@ -6737,7 +7390,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:30+00:00"
-    },
+    }
+  ],
+  "tv_centr_international": [
     {
       "channel_id": "tv_centr_international",
       "name": "TV Centr International",
@@ -6761,7 +7416,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:30+00:00"
-    },
+    }
+  ],
+  "tvoe_tv": [
     {
       "channel_id": "tvoe_tv",
       "name": "Tvoe TV",
@@ -6785,7 +7442,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:30+00:00"
-    },
+    }
+  ],
+  "tv_pro": [
     {
       "channel_id": "tv_pro",
       "name": "TV PRO",
@@ -6809,7 +7468,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:30+00:00"
-    },
+    }
+  ],
+  "tvoye_tv_yumor": [
     {
       "channel_id": "tvoye_tv_yumor",
       "name": "Tvoye TV Yumor",
@@ -6833,7 +7494,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:31+00:00"
-    },
+    }
+  ],
+  "udar": [
     {
       "channel_id": "udar",
       "name": "UDAR",
@@ -6857,7 +7520,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:31+00:00"
-    },
+    }
+  ],
+  "unknown_russia_hd": [
     {
       "channel_id": "unknown_russia_hd",
       "name": "Unknown Russia HD",
@@ -6881,7 +7546,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:31+00:00"
-    },
+    }
+  ],
+  "ю": [
     {
       "channel_id": "ю",
       "name": "Ю",
@@ -6905,7 +7572,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:31+00:00"
-    },
+    }
+  ],
+  "ugra_tv": [
     {
       "channel_id": "ugra_tv",
       "name": "Ugra-TV",
@@ -6929,7 +7598,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:31+00:00"
-    },
+    }
+  ],
+  "usadba": [
     {
       "channel_id": "usadba",
       "name": "Usadba",
@@ -6953,7 +7624,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:31+00:00"
-    },
+    }
+  ],
+  "v_gostyakh_u_skazki": [
     {
       "channel_id": "v_gostyakh_u_skazki",
       "name": "V gostyakh u skazki",
@@ -6977,7 +7650,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:31+00:00"
-    },
+    }
+  ],
+  "tv_3": [
     {
       "channel_id": "tv_3",
       "name": "TV-3",
@@ -7001,7 +7676,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:30+00:00"
-    },
+    }
+  ],
+  "univer_tv": [
     {
       "channel_id": "univer_tv",
       "name": "Univer TV",
@@ -7025,7 +7702,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:31+00:00"
-    },
+    }
+  ],
+  "vesti_fm": [
     {
       "channel_id": "vesti_fm",
       "name": "Vesti FM",
@@ -7049,7 +7728,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:33+00:00"
-    },
+    }
+  ],
+  "viju_explore": [
     {
       "channel_id": "viju_explore",
       "name": "viju Explore",
@@ -7073,7 +7754,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:33+00:00"
-    },
+    }
+  ],
+  "viju_history": [
     {
       "channel_id": "viju_history",
       "name": "viju History",
@@ -7097,7 +7780,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:34+00:00"
-    },
+    }
+  ],
+  "viju_tv1000": [
     {
       "channel_id": "viju_tv1000",
       "name": "viju TV1000",
@@ -7121,7 +7806,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:34+00:00"
-    },
+    }
+  ],
+  "viju_tv1000_action": [
     {
       "channel_id": "viju_tv1000_action",
       "name": "viju TV1000 action",
@@ -7145,7 +7832,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:34+00:00"
-    },
+    }
+  ],
+  "viju_comedy_hd": [
     {
       "channel_id": "viju_comedy_hd",
       "name": "viju+ Comedy HD",
@@ -7169,7 +7858,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:34+00:00"
-    },
+    }
+  ],
+  "viju_megahit_hd": [
     {
       "channel_id": "viju_megahit_hd",
       "name": "viju+ Megahit HD",
@@ -7194,7 +7885,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:34+00:00"
-    },
+    }
+  ],
+  "vetta_24": [
     {
       "channel_id": "vetta_24",
       "name": "Vetta 24",
@@ -7218,7 +7911,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:33+00:00"
-    },
+    }
+  ],
+  "viju_planet_hd": [
     {
       "channel_id": "viju_planet_hd",
       "name": "viju+ Planet HD",
@@ -7242,7 +7937,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:34+00:00"
-    },
+    }
+  ],
+  "viju_serial_hd": [
     {
       "channel_id": "viju_serial_hd",
       "name": "viju+ Serial HD",
@@ -7266,7 +7963,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:34+00:00"
-    },
+    }
+  ],
+  "viju_sport": [
     {
       "channel_id": "viju_sport",
       "name": "viju+ Sport",
@@ -7290,7 +7989,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:34+00:00"
-    },
+    }
+  ],
+  "vitrina_tv": [
     {
       "channel_id": "vitrina_tv",
       "name": "Vitrina TV",
@@ -7314,7 +8015,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:34+00:00"
-    },
+    }
+  ],
+  "volga": [
     {
       "channel_id": "volga",
       "name": "Volga",
@@ -7338,7 +8041,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:35+00:00"
-    },
+    }
+  ],
+  "vmeste_rf": [
     {
       "channel_id": "vmeste_rf",
       "name": "Vmeste-RF",
@@ -7362,7 +8067,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:35+00:00"
-    },
+    }
+  ],
+  "like_gecko_chrome_144_0_0_0_safari_537_36_group_title_undefined_vremya": [
     {
       "channel_id": "like_gecko_chrome_144_0_0_0_safari_537_36_group_title_undefined_vremya",
       "name": "like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Vremya",
@@ -7386,7 +8093,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:35+00:00"
-    },
+    }
+  ],
+  "viju_premiere_hd": [
     {
       "channel_id": "viju_premiere_hd",
       "name": "viju+ Premiere HD",
@@ -7411,7 +8120,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:34+00:00"
-    },
+    }
+  ],
+  "zagorodnaya_zhizn": [
     {
       "channel_id": "zagorodnaya_zhizn",
       "name": "Zagorodnaya Zhizn",
@@ -7435,7 +8146,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:35+00:00"
-    },
+    }
+  ],
+  "zhivaya_priroda": [
     {
       "channel_id": "zhivaya_priroda",
       "name": "Zhivaya priroda",
@@ -7459,7 +8172,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:36+00:00"
-    },
+    }
+  ],
+  "zhivaya_priroda_hd": [
     {
       "channel_id": "zhivaya_priroda_hd",
       "name": "Zhivaya priroda HD",
@@ -7483,7 +8198,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:36+00:00"
-    },
+    }
+  ],
+  "zdorovoe_tv": [
     {
       "channel_id": "zdorovoe_tv",
       "name": "Zdorovoe TV",
@@ -7507,7 +8224,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:35+00:00"
-    },
+    }
+  ],
+  "zhivaya_planeta": [
     {
       "channel_id": "zhivaya_planeta",
       "name": "Zhivaya Planeta",
@@ -7531,7 +8250,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:36+00:00"
-    },
+    }
+  ],
+  "звезда": [
     {
       "channel_id": "звезда",
       "name": "Звезда",
@@ -7555,7 +8276,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:36+00:00"
-    },
+    }
+  ],
+  "yuvelirochka": [
     {
       "channel_id": "yuvelirochka",
       "name": "Yuvelirochka",
@@ -7579,7 +8302,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:35+00:00"
-    },
+    }
+  ],
+  "za_tv": [
     {
       "channel_id": "za_tv",
       "name": "Za! TV",
@@ -7603,7 +8328,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:35+00:00"
-    },
+    }
+  ],
+  "zoopark": [
     {
       "channel_id": "zoopark",
       "name": "Zoopark",
@@ -7627,7 +8354,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:36+00:00"
-    },
+    }
+  ],
+  "zvezda_plus_hd": [
     {
       "channel_id": "zvezda_plus_hd",
       "name": "Zvezda Plus HD",
@@ -7651,7 +8380,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:36+00:00"
-    },
+    }
+  ],
+  "yalta_tv": [
     {
       "channel_id": "yalta_tv",
       "name": "Yalta TV",
@@ -7675,7 +8406,9 @@
       "epg_url": "",
       "attempts": 2,
       "checked_at": "2026-09-30T12:43:35+00:00"
-    },
+    }
+  ],
+  "yapervyy": [
     {
       "channel_id": "yapervyy",
       "name": "YaPervyy",
