@@ -1,9 +1,7 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# Movies | generated 2026-09-30T13:31:14+00:00
+# Movies | generated 2026-09-30T18:06:40+00:00
 #EXTINF:-1 tvg-id="AmediaHit.ru" tvg-name="Amedia Hit" tvg-logo="https://i.imgur.com/a8ZBGBw.png" group-title="RU • Movies",Amedia Hit
-http://flussonic.linkintel.ru/amedia-hit/index.m3u8
-#EXTINF:-1 tvg-id="Blokbaster.ru@HD" tvg-name="Blokbaster HD" tvg-logo="https://i.imgur.com/KcOi4Os.png" group-title="RU • Movies",Blokbaster HD
-http://stream.mcquack.net/364/index.m3u8
+http://stream.mcquack.net/162/index.m3u8
 #EXTINF:-1 tvg-id="Bollywood.ru" tvg-name="Bollywood" tvg-logo="https://i.imgur.com/YLQRnXt.png" group-title="RU • Movies",Bollywood
 http://176.118.197.101/Bollywood_HD/index.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.ro@Russia" tvg-name="Bollywood HD Russia" tvg-logo="https://i.imgur.com/scDKOLS.png" group-title="RU • Movies",Bollywood HD Russia
@@ -40,6 +38,8 @@ https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8
 http://176.118.197.101/Evrokino/index.m3u8
 #EXTINF:-1 tvg-id="Evrokino.ru@HD" tvg-name="Evrokino HD" tvg-logo="https://i.imgur.com/8LPtPf6.png" group-title="RU • Movies",Evrokino HD
 http://stream.mcquack.net/385/index.m3u8
+#EXTINF:-1 tvg-id="FAN.ru" tvg-name="FAN" tvg-logo="https://i.imgur.com/mDeTbaF.png" group-title="RU • Animation",FAN
+http://stream.mcquack.net/420/index.m3u8
 #EXTINF:-1 tvg-id="Hit.ru" tvg-name="Hit" tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="RU • Movies",Hit
 http://stream.mcquack.net/363/index.m3u8
 #EXTINF:-1 tvg-id="HorosheeKino.ru" tvg-name="Horoshee Kino" tvg-logo="https://i.imgur.com/ZbOqfy4.png" group-title="RU • Movies",Horoshee Kino
@@ -51,13 +51,13 @@ http://188.113.190.12/329/index.m3u8
 #EXTINF:-1 tvg-id="Kino1.ru" tvg-name="Kino 1" tvg-logo="https://i.imgur.com/zsCPLs4.png" group-title="RU • Movies",Kino 1
 http://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 tvg-id="KinoTV.ru" tvg-name="Kino TV" tvg-logo="https://i.imgur.com/sMpamNO.png" group-title="RU • Movies",Kino TV
-http://stream.mcquack.net/221/index.m3u8
+http://flussonic.linkintel.ru/kino-tv/index.m3u8
 #EXTINF:-1 tvg-id="KinoTV.ru@HD" tvg-name="Kino TV HD" tvg-logo="https://i.imgur.com/sMpamNO.png" group-title="RU • Movies",Kino TV HD
 http://176.118.197.101/KinoTvHD/playlist.m3u8
 #EXTINF:-1 tvg-id="KinoHit.ru" tvg-name="KinoHit" tvg-logo="https://i.imgur.com/Ge8vkQM.png" group-title="RU • Movies",KinoHit
 http://stream.mcquack.net/126/index.m3u8
 #EXTINF:-1 tvg-id="Kinomix.ru" tvg-name="Kinomix" tvg-logo="https://i.imgur.com/D4q2XUT.png" group-title="RU • Movies",Kinomix
-http://stream.mcquack.net/133/index.m3u8
+http://93.170.254.17/Kinomiks/index.m3u8
 #EXTINF:-1 tvg-id="Kinopokaz.ru" tvg-name="Kinopokaz" tvg-logo="https://i.imgur.com/nNjMyAq.png" group-title="RU • Movies",Kinopokaz
 http://stream.mcquack.net/64/index.m3u8
 #EXTINF:-1 tvg-id="Kinopremyera.ru" tvg-name="Kinopremyera" tvg-logo="https://i.imgur.com/s0UYT8T.png" group-title="RU • Movies",Kinopremyera
@@ -76,7 +76,7 @@ http://stream.mcquack.net/369/index.m3u8
 http://stream.mcquack.net/107/index.m3u8
 #EXTINF:-1 tvg-id="Nashe.ru" tvg-name="Nashe" tvg-logo="https://i.imgur.com/KO8dhi9.png" group-title="RU • Movies",Nashe
 http://stream.mcquack.net/217/index.m3u8
-#EXTINF:-1 tvg-id="Nashemuzhskoe.ru" tvg-name="Nashe muzhskoe" tvg-logo="https://i.imgur.com/QRWKpmb.png" group-title="RU • Movies",Nashe muzhskoe
+#EXTINF:-1 tvg-id="Nashemuzhskoe.ru@HD" tvg-name="Nashe muzhskoe HD" tvg-logo="https://i.imgur.com/QRWKpmb.png" group-title="RU • Movies",Nashe muzhskoe HD
 http://stream.mcquack.net/362/index.m3u8
 #EXTINF:-1 tvg-id="NasheNovoeKino.ru" tvg-name="Nashe Novoe Kino" tvg-logo="https://i.imgur.com/IOxIsPj.png" group-title="RU • Movies",Nashe Novoe Kino
 https://stream8.cinerama.uz/1051/tracks-v1a1/mono.m3u8
@@ -88,13 +88,11 @@ https://stream.smotrim.ru/hls2/static/playlist_4.m3u8
 http://stream.mcquack.net/421/index.m3u8
 #EXTINF:-1 tvg-id="RodnoeKino.ru" tvg-name="Rodnoe Kino" tvg-logo="https://i.imgur.com/H70LxoZ.png" group-title="RU • Movies",Rodnoe Kino
 https://stream8.cinerama.uz/1052/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="RusskiyBestseller.ru" tvg-name="Russkiy Bestseller" tvg-logo="https://i.imgur.com/w0ZE9QJ.png" group-title="RU • Movies",Russkiy Bestseller
-http://stream.mcquack.net/208/index.m3u8
 #EXTINF:-1 tvg-id="RusskiyDetektiv.ru" tvg-name="Russkiy Detektiv" tvg-logo="https://i.imgur.com/H3qhN8S.png" group-title="RU • Movies",Russkiy Detektiv
 http://stream.mcquack.net/204/index.m3u8
 #EXTINF:-1 tvg-id="Russkiyroman.ru" tvg-name="Russkiy roman" tvg-logo="https://i.imgur.com/cQN0P2B.png" group-title="RU • Movies",Russkiy roman
-https://vod.tuva.ru/rusroman/index.m3u8
-#EXTINF:-1 tvg-id="Shokiruyushchee.ru" tvg-name="Shokiruyushchee" tvg-logo="https://i.imgur.com/UG63hZ0.png" group-title="RU • Movies",Shokiruyushchee
+http://stream.mcquack.net/266/index.m3u8
+#EXTINF:-1 tvg-id="Shokiruyushchee.ru@HD" tvg-name="Shokiruyushchee HD" tvg-logo="https://i.imgur.com/UG63hZ0.png" group-title="RU • Movies",Shokiruyushchee HD
 http://stream.mcquack.net/75/index.m3u8
 #EXTINF:-1 tvg-id="StarCinema.ru" tvg-name="Star Cinema" tvg-logo="https://i.imgur.com/5sis895.png" group-title="RU • Movies",Star Cinema
 https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
@@ -104,17 +102,9 @@ https://dash2.antik.sk/live/test_star_family_atktv/playlist.m3u8
 http://176.118.197.101/START_AIR/index.m3u8
 #EXTINF:-1 tvg-id="TV21.ru" tvg-name="TV 21" tvg-logo="https://i.imgur.com/nSmSnH6.png" group-title="RU • Movies",TV 21
 http://178.134.1.158:8081/TVXXI/index.m3u8
-#EXTINF:-1 tvg-id="TV21International.ru" tvg-name="TV 21 International" tvg-logo="https://ibb.co/BH6CZx3K" group-title="RU • Movies",TV 21 International
-http://stream.mcquack.net/152/index.m3u8
-#EXTINF:-1 tvg-id="vijuTV1000.ru" tvg-name="viju TV1000" tvg-logo="https://i.imgur.com/ZMsyjSr.png" group-title="RU • Movies",viju TV1000
-http://stream.mcquack.net/110/index.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000action.ru" tvg-name="viju TV1000 action" tvg-logo="https://i.imgur.com/TMmyuzh.png" group-title="RU • Movies",viju TV1000 action
-https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8
+http://stream.mcquack.net/100/index.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000russkoe.ru" tvg-name="viju TV1000 russkoe" tvg-logo="https://i.imgur.com/Meak2y4.png" group-title="RU • Movies",viju TV1000 russkoe
-https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="vijuPlusMegahit.ru@HD" tvg-name="viju+ Megahit HD" tvg-logo="https://i.imgur.com/oIQNddV.png" group-title="RU • Movies",viju+ Megahit HD
+https://stream8.cinerama.uz/1059/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="vijuPlusMegahit.ru" tvg-name="viju+ Megahit" tvg-logo="https://i.imgur.com/oIQNddV.png" group-title="RU • Movies",viju+ Megahit
 http://stream.mcquack.net/200/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusPremiere.ru@HD" tvg-name="viju+ Premiere HD" tvg-logo="https://i.imgur.com/klRvhR5.png" group-title="RU • Sports",viju+ Premiere HD
-http://stream.mcquack.net/202/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusSerial.ru@HD" tvg-name="viju+ Serial HD" tvg-logo="https://i.imgur.com/8yXZET5.png" group-title="RU • Movies",viju+ Serial HD
-http://stream.mcquack.net/311/index.m3u8
