@@ -44,5 +44,7 @@ jobs:
             echo "No generated changes."
           else
             git commit -m "chore: refresh IPTV catalog"
+            git fetch origin main
+            git rebase origin/main
             git push
           fi
