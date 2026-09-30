@@ -1,13 +1,17 @@
 version: 1
 
 discovery:
-  timeout_seconds: 8
-  retries: 2
+  timeout_seconds: 10
+  retries: 3
   concurrency: 32
-  user_agent: "AZ-RU-IPTV-Hub/1.0"
+  user_agent: "AZ-RU-IPTV-Hub/2.0"
   max_manifest_bytes: 1048576
+  segment_timeout_seconds: 8
+  max_segment_bytes: 262144
+  deep_check_limit: 350
   minimum_success_ratio: 0.05
   max_candidates_per_channel: 8
+  countries: ["AZ", "RU"]
 
 catalogs:
   - id: iptv-org-az
@@ -241,11 +245,30 @@ quality:
 metadata:
   enabled: true
   api_url: https://iptv-org.github.io/api/channels.json
+  max_bytes: 40_000_000
+
+feeds:
+  enabled: true
+  api_url: https://iptv-org.github.io/api/feeds.json
+  max_bytes: 20_000_000
+
+logos:
+  enabled: true
+  api_url: https://iptv-org.github.io/api/logos.json
+  max_bytes: 40_000_000
+
+streams:
+  enabled: true
+  api_url: https://iptv-org.github.io/api/streams.json
+  max_bytes: 80_000_000
 
 epg:
   enabled: true
   api_url: https://iptv-org.github.io/api/guides.json
-  sources: []
+  max_bytes: 40_000_000
+  max_sources: 80
+  download_timeout_seconds: 12
+  max_source_bytes: 30_000_000
 
 
 aliases:
