@@ -258,12 +258,14 @@ def write_m3u(items, path, title, epg_urls=None):
     epg_urls = [x for x in (epg_urls or []) if x]
     header = "#EXTM3U"
     if epg_urls:
-        header += " url-tvg=" + ",".join(f'"{x}"' for x in epg_urls)
+        header += f' url-tvg="{epg_urls[0]}"'
     lines = [header, f"# {title} | generated {now()}"]
     for c in sorted(items, key=lambda x: (x.country, x.name.lower())):
         attrs = [f'tvg-id="{c.tvg_id or c.channel_id}"', f'tvg-name="{c.name}"']
         if c.logo:
             attrs.append(f'tvg-logo="{c.logo}"')
+        if c.epg_url:
+            attrs.append(f'tvg-url="{c.epg_url}"')
         attrs.append(f'group-title="{c.country} • {c.categories[0].title()}"')
         lines += [f"#EXTINF:-1 {' '.join(attrs)},{c.name}", c.url]
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
