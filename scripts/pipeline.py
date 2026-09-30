@@ -78,6 +78,31 @@ def display_name(name, country, cfg):
     k = re.sub(r"[^\w\u0400-\u04ff]+", " ", clean.lower(), flags=re.UNICODE).strip()
     return aliases.get(k, aliases.get(k.replace(" ", "_"), clean))
 
+def load_metadata(cfg):
+    meta_cfg = cfg.get("metadata") or {}
+    if not meta_cfg.get("enabled") or not meta_cfg.get("api_url"):
+        return {}
+    try:
+        body, _, _ = fetch(meta_cfg["api_url"], cfg["discovery"]["timeout_seconds"], 20 * 1024 * 1024)
+        rows = json.loads(body)
+        return {x.get("id"): x for x in rows if isinstance(x, dict) and x.get("id")}
+    except Exception as e:
+        print(f"[WARN] channel metadata API: {e}")
+        return {}
+
+def localize_candidates(candidates, metadata):
+    for c in candidates:
+        if c.country != "RU":
+            continue
+        row = metadata.get(c.tvg_id) or metadata.get(c.channel_id)
+        if not row:
+            continue
+        names = [row.get("name","")] + (row.get("alt_names") or [])
+        cyr = [x.strip() for x in names if isinstance(x, str) and re.search(r"[А-Яа-яЁё]", x)]
+        if cyr:
+            c.name = cyr[0]
+    return candidates
+
 def load_guides(cfg):
     epg = cfg.get("epg") or {}
     if not epg.get("enabled") or not epg.get("api_url"):
@@ -246,6 +271,7 @@ def write_m3u(items, path, title, epg_urls=None):
 def run(config_path):
     cfg = yaml.safe_load(Path(config_path).read_text(encoding="utf-8"))
     candidates = manual_candidates(cfg)
+    metadata = load_metadata(cfg)
     guides = load_guides(cfg)
     for src in cfg["catalogs"]:
         try:
@@ -256,6 +282,9 @@ def run(config_path):
             candidates.extend(got)
         except Exception as e:
             print(f"[WARN] catalog {src['id']}: {e}")
+    localize_candidates(candidates, metadata)
+    for c in candidates:
+        c.channel_id = key(c.name, cfg.get("aliases", {}))
     uniq = {}
     for c in candidates:
         if not allowed(c, cfg):
@@ -304,6 +333,11 @@ def run(config_path):
             ("news.m3u", lambda c: "news" in c.categories, "News"),
             ("kids.m3u", lambda c: "kids" in c.categories, "Kids"),
             ("music.m3u", lambda c: "music" in c.categories, "Music"),
+            ("az-sports.m3u", lambda c: c.country == "AZ" and "sports" in c.categories, "Azerbaijan Sports"),
+            ("ru-sports.m3u", lambda c: c.country == "RU" and "sports" in c.categories, "Russian Sports"),
+            ("hd.m3u", lambda c: bool(c.resolution) and int(c.resolution.split("x")[0]) >= 1280, "HD"),
+            ("full-hd.m3u", lambda c: bool(c.resolution) and int(c.resolution.split("x")[0]) >= 1920, "Full HD"),
+            ("low-bandwidth.m3u", lambda c: bool(c.resolution) and int(c.resolution.split("x")[0]) <= 1280, "Low bandwidth"),
         ]
         for filename, pred, title in filters:
             subset = [c for c in items if pred(c)]
