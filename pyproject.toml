@@ -1,0 +1,10 @@
+[project]
+name = "az-ru-iptv-hub"
+version = "1.0.0"
+description = "Automated Azerbaijani/Russian IPTV catalog builder"
+requires-python = ">=3.11"
+dependencies = ["PyYAML>=6.0,<7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
