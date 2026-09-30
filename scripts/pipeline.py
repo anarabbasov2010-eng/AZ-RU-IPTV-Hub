@@ -283,8 +283,14 @@ def run(config_path):
     candidates=manual_candidates(cfg)+api_stream_candidates(stream_rows,metadata,feeds,logos,cfg)
     for src in cfg["catalogs"]:
         try:
-            body,_,_=fetch(src["url"],cfg["discovery"]["timeout_seconds"],12*1024*1024); got=parse_m3u(body,src.get("country",""),src["url"],cfg)
+            body,_,_=fetch(src["url"],cfg["discovery"]["timeout_seconds"],16*1024*1024); got=parse_m3u(body,src.get("country",""),src["url"],cfg)
             if src.get("filter_countries"): got=[x for x in got if x.country in src["filter_countries"]]
+            if src.get("filter_languages"):
+                wanted={str(x).lower() for x in src["filter_languages"]}
+                got=[x for x in got if any(str(lang).lower() in wanted for lang in x.languages) or (src.get("country") in ("AZ","RU") and x.country==src.get("country"))]
+            if src.get("filter_categories"):
+                wanted={str(x).lower() for x in src["filter_categories"]}
+                got=[x for x in got if any(str(cat).lower() in wanted for cat in x.categories)]
             candidates.extend(got)
         except Exception as e: print(f"[WARN] catalog {src['id']}: {e}")
     enrich_from_apis(candidates,metadata,feeds,logos)
@@ -296,7 +302,7 @@ def run(config_path):
         if not u: continue
         grouped.setdefault(c.channel_id,[])
         if all(x.url!=u for x in grouped[c.channel_id]): grouped[c.channel_id].append(c)
-    max_per=int(cfg["discovery"].get("max_candidates_per_channel",8)); candidates=[x for rows in grouped.values() for x in rows[:max_per]]
+    max_per=int(cfg["discovery"].get("max_candidates_per_channel",12)); candidates=[x for rows in grouped.values() for x in rows[:max_per]]
     print(f"[INFO] candidates={len(candidates)} channels={len(grouped)}")
     hp=ROOT/"status/source-history.json"
     try: history=json.loads(hp.read_text(encoding="utf-8")) if hp.exists() else {}
