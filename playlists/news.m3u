@@ -1,130 +1,56 @@
 #EXTM3U
-# News | generated 2026-09-30T12:24:52+00:00
-#EXTINF:-1 tvg-id="AlvinChannelTV.az@SD" tvg-name="Alvin Channel TV (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/m6CM7VU.png" group-title="AZ • News",Alvin Channel TV (360p) [Not 24/7]
-https://cdn10-alvinchannel.yayin.com.tr/alvinchannel/alvinchannel/playlist.m3u8
-#EXTINF:-1 tvg-id="APATv.az@SD" tvg-name="APA Tv (1080p)" tvg-logo="https://i.imgur.com/2CSW4V4.png" group-title="AZ • News",APA Tv (1080p)
+# News | generated 2026-09-30T12:30:14+00:00
+#EXTINF:-1 tvg-id="APATv.az@SD" tvg-name="APA Tv" tvg-logo="https://i.imgur.com/2CSW4V4.png" group-title="AZ • News",APA Tv
 http://stream.apa.tv/apastream/index.m3u8
-#EXTINF:-1 tvg-id="KapazTV.az@SD" tvg-name="Kapaz TV" tvg-logo="https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/500px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png" group-title="AZ • News",Kapaz TV
+#EXTINF:-1 tvg-id="KapazTV.az" tvg-name="Kəpəz TV" group-title="AZ • News",Kəpəz TV
 http://85.132.78.122:8050/hls/stream/index.m3u8
-#EXTINF:-1 tvg-id="360News.ru@SD" tvg-name="360° News (1080p)" tvg-logo="https://i.imgur.com/YXDeX8q.png" group-title="RU • News",360° News (1080p)
+#EXTINF:-1 tvg-id="360News.ru@SD" tvg-name="360° News" tvg-logo="https://i.imgur.com/YXDeX8q.png" group-title="RU • News",360° News
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="86.ru@SD" tvg-name="86 (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/0dRS4Cb.png" group-title="RU • News",86 (1080p) [Not 24/7]
-https://sitv.ru/hls/s86.m3u8
-#EXTINF:-1 tvg-id="Aris24.ru@SD" tvg-name="Aris 24 (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/CTFVEAb.png" group-title="RU • News",Aris 24 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="Aris24.ru@SD" tvg-name="Aris 24" tvg-logo="https://i.imgur.com/CTFVEAb.png" group-title="RU • News",Aris 24
 http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
-#EXTINF:-1 tvg-id="Arkhyz24.ru@SD" tvg-name="Arkhyz 24 (1080p)" tvg-logo="https://i.imgur.com/blAtdkJ.png" group-title="RU • News",Arkhyz 24 (1080p)
+#EXTINF:-1 tvg-id="Arkhyz24.ru@SD" tvg-name="Arkhyz 24" tvg-logo="https://i.imgur.com/blAtdkJ.png" group-title="RU • News",Arkhyz 24
 https://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
-#EXTINF:-1 tvg-id="Belgorod24.ru@SD" tvg-name="Belgorod 24 (1080p)" tvg-logo="https://i.imgur.com/EEirvyx.png" group-title="RU • News",Belgorod 24 (1080p)
+#EXTINF:-1 tvg-id="Belgorod24.ru@SD" tvg-name="Belgorod 24" tvg-logo="https://i.imgur.com/EEirvyx.png" group-title="RU • News",Belgorod 24
 https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
-#EXTINF:-1 tvg-id="CityEdenAutoGid.ru@HD" tvg-name="City Eden AutoGid [Not 24/7]" tvg-logo="https://i.imgur.com/qpe8L27.png" group-title="RU • News",City Eden AutoGid [Not 24/7]
-https://cityeden.catcast.tv/content/47515/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenBirmaPlay.ru@HD" tvg-name="City Eden Birma Play [Not 24/7]" tvg-logo="https://i.imgur.com/38Q5L5W.png" group-title="RU • News",City Eden Birma Play [Not 24/7]
-https://cityeden.catcast.tv/content/34364/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenClassicMusic.ru@HD" tvg-name="City Eden Classic Music [Not 24/7]" tvg-logo="https://i.imgur.com/l7BE8l6.png" group-title="RU • News",City Eden Classic Music [Not 24/7]
-https://cityeden.catcast.tv/content/47400/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenKinoAction.ru@HD" tvg-name="City Eden KinoAction [Not 24/7]" tvg-logo="https://i.imgur.com/uuzuvD0.png" group-title="RU • Movies",City Eden KinoAction [Not 24/7]
-https://cityeden.catcast.tv/content/41333/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenKinoArt.ru@HD" tvg-name="City Eden KinoArt [Not 24/7]" tvg-logo="https://i.imgur.com/67CWCtz.png" group-title="RU • Movies",City Eden KinoArt [Not 24/7]
-https://cityeden.catcast.tv/content/38398/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenKinoAsia.ru@HD" tvg-name="City Eden KinoAsia [Not 24/7]" tvg-logo="https://i.imgur.com/gaket4B.png" group-title="RU • Movies",City Eden KinoAsia [Not 24/7]
-https://cityeden.catcast.tv/content/34393/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenKinoDetektiv.ru@HD" tvg-name="City Eden KinoDetektiv [Not 24/7]" tvg-logo="https://i.imgur.com/9rKHwBV.png" group-title="RU • Movies",City Eden KinoDetektiv [Not 24/7]
-https://cityeden.catcast.tv/content/41327/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenKinoDok.ru@HD" tvg-name="City Eden KinoDok [Not 24/7]" tvg-logo="https://i.imgur.com/itRbMX3.png" group-title="RU • News",City Eden KinoDok [Not 24/7]
-https://cityeden.catcast.tv/content/38354/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenKinoDrama.ru@HD" tvg-name="City Eden KinoDrama [Not 24/7]" tvg-logo="https://i.imgur.com/29ddffh.png" group-title="RU • Movies",City Eden KinoDrama [Not 24/7]
-https://cityeden.catcast.tv/content/45269/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenKinoFantastika.ru@HD" tvg-name="City Eden KinoFantastika [Not 24/7]" tvg-logo="https://i.imgur.com/I64FeIO.png" group-title="RU • Movies",City Eden KinoFantastika [Not 24/7]
-https://cityeden.catcast.tv/content/45268/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenKinoKlassika.ru@HD" tvg-name="City Eden KinoKlassika [Not 24/7]" tvg-logo="https://i.imgur.com/0qGCS1S.png" group-title="RU • Movies",City Eden KinoKlassika [Not 24/7]
-https://cityeden.catcast.tv/content/34185/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenKinoKomediya.ru@HD" tvg-name="City Eden KinoKomediya [Not 24/7]" tvg-logo="https://i.imgur.com/Aga2XVA.png" group-title="RU • Movies",City Eden KinoKomediya [Not 24/7]
-https://cityeden.catcast.tv/content/41331/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenKinoMistika.ru@HD" tvg-name="City Eden KinoMistika [Not 24/7]" tvg-logo="https://i.imgur.com/s1Pid0K.png" group-title="RU • Movies",City Eden KinoMistika [Not 24/7]
-https://cityeden.catcast.tv/content/40783/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenMedZdrav.ru@HD" tvg-name="City Eden MedZdrav [Not 24/7]" tvg-logo="https://i.imgur.com/BM4E0Kr.png" group-title="RU • News",City Eden MedZdrav [Not 24/7]
-https://cityeden.catcast.tv/content/47519/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenPlay.ru@HD" tvg-name="City Eden Play [Not 24/7]" tvg-logo="https://i.imgur.com/ozEqob9.png" group-title="RU • News",City Eden Play [Not 24/7]
-https://cityeden.catcast.tv/content/34100/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenReceptyGurmana.ru@HD" tvg-name="City Eden Recepty Gurmana [Not 24/7]" tvg-logo="https://i.imgur.com/wR0pvRc.png" group-title="RU • News",City Eden Recepty Gurmana [Not 24/7]
-https://cityeden.catcast.tv/content/47516/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenSirtakiTV.ru@HD" tvg-name="City Eden Sirtaki TV [Not 24/7]" tvg-logo="https://i.imgur.com/V3MTfyc.png" group-title="RU • News",City Eden Sirtaki TV [Not 24/7]
-https://cityeden.catcast.tv/content/46421/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenTeleNovella.ru@HD" tvg-name="City Eden TeleNovella [Not 24/7]" tvg-logo="https://i.imgur.com/mT5liTh.png" group-title="RU • News",City Eden TeleNovella [Not 24/7]
-https://cityeden.catcast.tv/content/46209/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenTV.ru@HD" tvg-name="City Eden TV [Not 24/7]" tvg-logo="https://i.imgur.com/X9kACKi.png" group-title="RU • News",City Eden TV [Not 24/7]
-https://cityeden.catcast.tv/content/34246/index.m3u8
-#EXTINF:-1 tvg-id="CurrentTimeTV.cz@SD" tvg-name="Current Time TV (1080p)" tvg-logo="https://i.imgur.com/hKo8ApU.png" group-title="RU • News",Current Time TV (1080p)
+#EXTINF:-1 tvg-id="CurrentTimeTV.cz@SD" tvg-name="Current Time TV" tvg-logo="https://i.imgur.com/hKo8ApU.png" group-title="RU • News",Current Time TV
 https://rferl-ingest.akamaized.net/hls/live/2121657/tvmc05/master.m3u8
-#EXTINF:-1 tvg-id="GovoritMoskva.ru@SD" tvg-name="Govorit Moskva (720p)" tvg-logo="https://i.imgur.com/z2mxf3E.png" group-title="RU • News",Govorit Moskva (720p)
+#EXTINF:-1 tvg-id="GovoritMoskva.ru@SD" tvg-name="Govorit Moskva" tvg-logo="https://i.imgur.com/z2mxf3E.png" group-title="RU • News",Govorit Moskva
 https://video.govoritmoskva.ru/rufm/index.m3u8
-#EXTINF:-1 tvg-id="Izvestia.ru@SD" tvg-name="Izvestia (1080p)" tvg-logo="https://i.imgur.com/r5HzA6J.png" group-title="RU • News",Izvestia (1080p)
+#EXTINF:-1 tvg-id="Izvestia.ru@SD" tvg-name="Izvestia" tvg-logo="https://i.imgur.com/r5HzA6J.png" group-title="RU • News",Izvestia
 http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
-#EXTINF:-1 tvg-id="Kino1.ru@International" tvg-name="Kino 1 (Russia) [Not 24/7]" tvg-logo="https://i.imgur.com/zsCPLs4.png" group-title="RU • Movies",Kino 1 (Russia) [Not 24/7]
-http://kino-1.catcast.tv/content/38617/index.m3u8
-#EXTINF:-1 tvg-id="KrikTV.ru@SD" tvg-name="Krik-TV (1080p)" tvg-logo="https://i.imgur.com/rtuChZR.png" group-title="RU • News",Krik-TV (1080p)
+#EXTINF:-1 tvg-id="KrikTV.ru@SD" tvg-name="Krik-TV" tvg-logo="https://i.imgur.com/rtuChZR.png" group-title="RU • News",Krik-TV
 http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8
-#EXTINF:-1 tvg-id="Kuban24.ru@MaikopskoyeTelevidenie" tvg-name="Kuban 24 (480p) [Geo-blocked]" tvg-logo="https://www.cableman.ru/sites/default/files/2022-03-23_02-09-35.png" group-title="RU • News",Kuban 24 (480p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Kuban24.ru@MaikopskoyeTelevidenie" tvg-name="Kuban 24" tvg-logo="https://www.cableman.ru/sites/default/files/2022-03-23_02-09-35.png" group-title="RU • News",Kuban 24
 http://dmi3y-tv.online/hls/zabava/region/MAYK/CH_MAYKOP.m3u8
-#EXTINF:-1 tvg-id="Kuban24.ru@SD" tvg-name="Kuban 24 SD [Geo-blocked]" tvg-logo="https://i.imgur.com/atzrXcz.png" group-title="RU • News",Kuban 24 SD [Geo-blocked]
+#EXTINF:-1 tvg-id="Kuban24.ru@SD" tvg-name="Kuban 24 SD" tvg-logo="https://i.imgur.com/atzrXcz.png" group-title="RU • News",Kuban 24 SD
 https://zabava-block-htvod.cdn.ngenix.net/rtk_block.m3u8
-#EXTINF:-1 tvg-id="Leomax24.ru@SD" tvg-name="Leomax 24 (1080p)" tvg-logo="https://i.imgur.com/qU9ohQu.png" group-title="RU • News",Leomax 24 (1080p)
+#EXTINF:-1 tvg-id="Leomax24.ru@SD" tvg-name="Leomax 24" tvg-logo="https://i.imgur.com/qU9ohQu.png" group-title="RU • News",Leomax 24
 https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 #EXTINF:-1 tvg-id="Lugansk24.ua@SD" tvg-name="Lugansk 24" tvg-logo="https://i.imgur.com/AihoVc0.png" group-title="RU • News",Lugansk 24
 https://streaming.televizor24.cc/live/29.m3u8
-#EXTINF:-1 tvg-id="Mir24.ru@SD" tvg-name="Mir 24 (1080p)" tvg-logo="https://i.imgur.com/dj9c8Yd.png" group-title="RU • News",Mir 24 (1080p)
+#EXTINF:-1 tvg-id="Mir24.ru@SD" tvg-name="Mir 24" tvg-logo="https://i.imgur.com/dj9c8Yd.png" group-title="RU • News",Mir 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="Mir.ru@HD" tvg-name="Mir HD (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="RU • News",Mir HD (1080p) [Not 24/7]
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/int/playlist.m3u8
-#EXTINF:-1 tvg-id="Moskva24.ru@SD" tvg-name="Moskva 24 (1080p)" tvg-logo="https://i.imgur.com/gXbUMVy.png" group-title="RU • News",Moskva 24 (1080p)
+#EXTINF:-1 tvg-id="Moskva24.ru@SD" tvg-name="Moskva 24" tvg-logo="https://i.imgur.com/gXbUMVy.png" group-title="RU • News",Moskva 24
 https://stream.smotrim.ru/hls/givc8/playlist.m3u8?entity=channel&id=798&sign=37881ef2e289f062ceff0dca6c24dc58
-#EXTINF:-1 tvg-id="MTVVolgograd.ru@SD" tvg-name="MTV Volgograd (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/pdCAUrP.png" group-title="RU • News",MTV Volgograd (720p) [Not 24/7]
-http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="Muzyka1.ru@International" tvg-name="Muzyka 1 [Not 24/7]" tvg-logo="https://i.imgur.com/DIKe5vA.png" group-title="RU • News",Muzyka 1 [Not 24/7]
-https://kino-1.catcast.tv/content/37745/index.m3u8
-#EXTINF:-1 tvg-id="MuzykaKino.ru@International" tvg-name="Muzyka Kino [Not 24/7]" tvg-logo="https://i.imgur.com/2SG0Swa.png" group-title="RU • News",Muzyka Kino [Not 24/7]
-https://kino-1.catcast.tv/content/37739/index.m3u8
-#EXTINF:-1 tvg-id="NikaTV.ru@SD" tvg-name="Nika TV (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/dccsFAu.png" group-title="RU • News",Nika TV (576p) [Not 24/7]
-https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="NovorossiyaTV.ru@SD" tvg-name="Novorossiya TV (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/ijmf0bV.png" group-title="RU • News",Novorossiya TV (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="NovorossiyaTV.ru@SD" tvg-name="Novorossiya TV" tvg-logo="https://i.imgur.com/ijmf0bV.png" group-title="RU • News",Novorossiya TV
 http://31.131.139.253:9002/novoros/index.m3u8
-#EXTINF:-1 tvg-id="NTM.ru@SD" tvg-name="NTM (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/AH50pGT.png" group-title="RU • News",NTM (720p) [Not 24/7]
-https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NTS.ru@SD" tvg-name="NTS (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/skkDR7q.png" group-title="RU • News",NTS (1080p) [Not 24/7]
-https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NVKSakha.ru@SD" tvg-name="NVK Sakha (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/LwXNUhf.png" group-title="RU • News",NVK Sakha (1080p) [Not 24/7]
-https://live-saha.cdnvideo.ru/saha/saha/playlist.m3u8
-#EXTINF:-1 tvg-id="OplotTV.ru@SD" tvg-name="Oplot TV SD (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/RvUkId2.png" group-title="RU • News",Oplot TV SD (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="OplotTV.ru@SD" tvg-name="Oplot TV SD" tvg-logo="https://i.imgur.com/RvUkId2.png" group-title="RU • News",Oplot TV SD
 http://31.131.139.253:9002/oplot_hd/index.m3u8
 #EXTINF:-1 tvg-id="PervyyRespublikanskiy.ru@SD" tvg-name="Pervyy Respublikanskiy" tvg-logo="https://i.imgur.com/ti4OMBv.png" group-title="RU • News",Pervyy Respublikanskiy
 https://streaming.televizor24.cc/live/27.m3u8
-#EXTINF:-1 tvg-id="RadioShanson.ru@SD" tvg-name="Radio Shanson (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/lbqM3K2.png" group-title="RU • News",Radio Shanson (720p) [Not 24/7]
-http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
-#EXTINF:-1 tvg-id="RTBalkan.ru@SD" tvg-name="RT Balkan (1080p)" tvg-logo="https://pbs.twimg.com/media/FiHmjBrWIBsN41d.jpg" group-title="RU • News",RT Balkan (1080p)
+#EXTINF:-1 tvg-id="RTBalkan.ru@SD" tvg-name="RT Balkan" tvg-logo="https://pbs.twimg.com/media/FiHmjBrWIBsN41d.jpg" group-title="RU • News",RT Balkan
 https://rt-srb.rttv.com/dvr/rtbalkan/playlist.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@HD" tvg-name="Russia-24 HD (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png" group-title="RU • News",Russia-24 HD (1080p)
+#EXTINF:-1 tvg-id="Russia24.ru@HD" tvg-name="Russia-24 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png" group-title="RU • News",Russia-24 HD
 http://77.232.131.211/Rossiya24/index.m3u8
-#EXTINF:-1 tvg-id="S1.ru@SD" tvg-name="S1 (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/chNBF5t.png" group-title="RU • News",S1 (1080p) [Not 24/7]
-https://sitv.ru/hls/stv.m3u8
-#EXTINF:-1 tvg-id="SamaraGIS.ru@SD" tvg-name="Samara-GIS (1080p) [Not 24/7]" tvg-logo="https://samaragis.ru/wp-includes/images/logo.png" group-title="RU • News",Samara-GIS (1080p) [Not 24/7]
-https://tv.samaragis.ru/new/new/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ShchyolkovskoeTV.ru@SD" tvg-name="Shchyolkovskoe TV (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/0us6l04.png" group-title="RU • News",Shchyolkovskoe TV (576p) [Not 24/7]
-https://stream1.tv41.ru/hls/live.m3u8
-#EXTINF:-1 tvg-id="SochiLive.ru@HD" tvg-name="Sochi Live (720p) [Not 24/7]" tvg-logo="https://www.cableman.ru/sites/default/files/sochi_live.png" group-title="RU • News",Sochi Live (720p) [Not 24/7]
-http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
-#EXTINF:-1 tvg-id="Sochi24.ru@SD" tvg-name="Sochi24 (720p)" tvg-logo="https://i.imgur.com/iwWxkl6.png" group-title="RU • News",Sochi24 (720p)
+#EXTINF:-1 tvg-id="Sochi24.ru@SD" tvg-name="Sochi24" tvg-logo="https://i.imgur.com/iwWxkl6.png" group-title="RU • News",Sochi24
 http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Surgut24.ru@SD" tvg-name="Surgut 24" tvg-logo="https://i.imgur.com/OxvqXMt.png" group-title="RU • News",Surgut 24
 https://sitv.ru/vgtrk/stv.m3u8
-#EXTINF:-1 tvg-id="T24.ru@SD" tvg-name="T24 (576p)" tvg-logo="https://i.imgur.com/1W6R14o.png" group-title="RU • News",T24 (576p)
+#EXTINF:-1 tvg-id="T24.ru@SD" tvg-name="T24" tvg-logo="https://i.imgur.com/1W6R14o.png" group-title="RU • News",T24
 http://178.134.1.158:8081/t24/index.m3u8
-#EXTINF:-1 tvg-id="Telplus.ru@SD" tvg-name="Telplus (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/1zbcZ3p.png" group-title="RU • News",Telplus (360p) [Not 24/7]
-https://streaming.astrakhan.ru/telplushd/playlist.m3u8
-#EXTINF:-1 tvg-id="TKR.ru@SD" tvg-name="TKR (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/VqtPB7L.png" group-title="RU • News",TKR (1080p) [Not 24/7]
-http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="Tolk.ru@HD" tvg-name="Tolk (720p)" tvg-logo="https://i.imgur.com/l7JZ79P.png" group-title="RU • News",Tolk (720p)
+#EXTINF:-1 tvg-id="Tolk.ru@HD" tvg-name="Tolk" tvg-logo="https://i.imgur.com/l7JZ79P.png" group-title="RU • News",Tolk
 http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="VestiFM.ru@HD" tvg-name="Vesti FM (720p)" tvg-logo="https://i.imgur.com/ZBHqSZj.png" group-title="RU • News",Vesti FM (720p)
+#EXTINF:-1 tvg-id="VestiFM.ru@HD" tvg-name="Vesti FM" tvg-logo="https://i.imgur.com/ZBHqSZj.png" group-title="RU • News",Vesti FM
 https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
-#EXTINF:-1 tvg-id="Vetta24.ru@SD" tvg-name="Vetta 24 (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/zKH1b5k.png" group-title="RU • News",Vetta 24 (576p) [Not 24/7]
+#EXTINF:-1 tvg-id="Vetta24.ru@SD" tvg-name="Vetta 24" tvg-logo="https://i.imgur.com/zKH1b5k.png" group-title="RU • News",Vetta 24
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
