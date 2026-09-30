@@ -53,7 +53,15 @@ def canon(url):
         netloc += f":{port}"
     return urlunsplit((p.scheme.lower(), netloc, p.path or "/", p.query, ""))
 
-def normalize_country(s, default=""):\n    x=str(s or default).strip().lower()\n    if x in ("az","azerbaijan","азербайджан"): return "AZ"\n    if x in ("ru","russia","россия"): return "RU"\n    return str(s or default).strip()\n\ndef clean_name(s):
+def normalize_country(s, default=""):
+    x = str(s or default).strip().lower()
+    if x in ("az", "azerbaijan", "азербайджан"):
+        return "AZ"
+    if x in ("ru", "russia", "россия"):
+        return "RU"
+    return str(s or default).strip()
+
+def clean_name(s):
     s = re.sub(r"\s+", " ", (s or "").strip())
     return s.replace("&amp;", "&")
 
