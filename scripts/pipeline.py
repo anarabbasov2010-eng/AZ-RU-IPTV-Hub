@@ -285,12 +285,20 @@ def run(config_path):
         try:
             body,_,_=fetch(src["url"],cfg["discovery"]["timeout_seconds"],16*1024*1024); got=parse_m3u(body,src.get("country",""),src["url"],cfg)
             if src.get("filter_countries"): got=[x for x in got if x.country in src["filter_countries"]]
+            for x in got:
+                row=metadata.get(x.tvg_id) if x.tvg_id else None
+                if row:
+                    x.country=row.get("country") or x.country
+                    x.languages=x.languages or row.get("languages") or []
+                    x.categories=row.get("categories") or x.categories
             if src.get("filter_languages"):
                 wanted={str(x).lower() for x in src["filter_languages"]}
-                got=[x for x in got if any(str(lang).lower() in wanted for lang in x.languages) or (src.get("country") in ("AZ","RU") and x.country==src.get("country"))]
+                got=[x for x in got if any(str(lang).lower() in wanted for lang in x.languages)]
             if src.get("filter_categories"):
                 wanted={str(x).lower() for x in src["filter_categories"]}
                 got=[x for x in got if any(str(cat).lower() in wanted for cat in x.categories)]
+            if src.get("filter_countries"):
+                got=[x for x in got if x.country in src["filter_countries"]]
             candidates.extend(got)
         except Exception as e: print(f"[WARN] catalog {src['id']}: {e}")
     enrich_from_apis(candidates,metadata,feeds,logos)
