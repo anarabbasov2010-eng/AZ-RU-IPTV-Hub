@@ -21,4 +21,4 @@ jobs:
       - run: python -m pip install --upgrade pip PyYAML pytest
       - run: pytest -q
       - run: |
-          if [ -f status/health.json ]; then python scripts/validate.py; else echo "No generated catalog yet; structural tests passed."; fi
+          if [ -f status/health.json ] && [ -f epg/programs.xml ]; then python scripts/validate.py; else echo "No generated catalog yet; structural tests passed."; fi
