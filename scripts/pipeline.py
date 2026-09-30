@@ -65,7 +65,7 @@ def categories(name, group, cfg):
     s = (name + " " + group).lower()
     out = []
     for c, words in cfg.get("category_keywords", {}).items():
-        if any(w.lower() in s for w in words):
+        if any(str(w).lower() in s for w in words):
             out.append(c)
     return out or ["general"]
 
@@ -74,7 +74,7 @@ def parse_m3u(text, default_country, source, cfg):
     out, meta = [], {}
     for line in lines:
         if line.startswith("#EXTINF"):
-            attrs = dict((m.group(1), m.group(2)) for m in re.finditer(r'([\w-]+)="([^"]*)"', line))
+            attrs = {m.group(1): str(m.group(2)) for m in re.finditer(r'([\w-]+)="([^"]*)"', line)}
             title = line.split(",", 1)[1].strip() if "," in line else attrs.get("tvg-name", "Unknown")
             meta = {
                 "name": clean_name(title),
