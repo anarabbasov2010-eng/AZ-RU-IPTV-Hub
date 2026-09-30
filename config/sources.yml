@@ -23,6 +23,64 @@ catalogs:
     url: https://iptv-org.github.io/iptv/countries/ru.m3u
     country: RU
 
+manual_streams:
+  - name: "Baku TV"
+    tvg_id: "BakuTV.az"
+    url: "https://rtmp.baku.tv/live/bakutv_720p.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["news"]
+    website: "https://baku.tv/live"
+  - name: "Idman TV"
+    tvg_id: "IdmanTV.az"
+    url: "https://str.yodacdn.net/idman/mono.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["sports"]
+    website: "https://idmantv.az/"
+  - name: "CBC Sport"
+    tvg_id: "CBCSport.az"
+    url: "https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["sports"]
+  - name: "CBC"
+    tvg_id: "CBC.az"
+    url: "https://stream.cbctv.az:5443/LiveApp/streams/cbctv.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+  - name: "Dünya TV"
+    tvg_id: "DunyaTV.az"
+    url: "https://www.tvkaista.net/stream-forwarder/get.php?x=Dunya"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+  - name: "Show Plus TV"
+    tvg_id: "ShowPlusTV.az"
+    url: "https://rtmp.showplus.tv/hls/myshow.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+  - name: "Az Star TV"
+    tvg_id: "AzStarTV.az"
+    url: "http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+  - name: "Space TV"
+    tvg_id: "SpaceTV.az"
+    url: "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/space-tv.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+  - name: "Xezer TV"
+    tvg_id: "XezerTV.az"
+    url: "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/xezer-tv.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+
 policy:
   reject_xtream: true
   reject_tokenized_urls: true
@@ -54,9 +112,13 @@ aliases:
   "arb": "arb"
   "arb 24": "arb24"
   "cbc": "cbc"
+  "cbc sport": "cbcsport"
   "real tv": "realtv"
   "xəzər tv": "xezer"
   "xazar tv": "xezer"
+  "xezer tv": "xezer"
+  "baku tv": "bakutv"
+  "idman tv": "idmantv"
   "rus": "rus"
   "russia 1": "russia1"
   "россия 1": "russia1"
@@ -65,7 +127,7 @@ aliases:
   "мир": "mir"
 
 category_keywords:
-  sports: [sport, sports, футбол, хоккей, теннис, basketball, football, fight, combat]
+  sports: [sport, sports, idman, футбол, хоккей, теннис, basketball, football, fight, combat]
   movies: [movie, cinema, кино, фильм, кинопоказ, serial, сериал]
   news: [news, новости, xəbər, xebər, информац, 24]
   kids: [kids, дет, мульт, cartoon, children]

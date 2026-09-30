@@ -113,6 +113,27 @@ def parse_m3u(text, default_country, source, cfg):
             meta = {}
     return out
 
+def manual_candidates(cfg):
+    out = []
+    for item in cfg.get("manual_streams", []):
+        name = clean_name(item.get("name", "Unknown"))
+        url = canon(item.get("url", ""))
+        if not url:
+            continue
+        out.append(Candidate(
+            channel_id=key(name, cfg.get("aliases", {})),
+            name=name,
+            url=url,
+            country=normalize_country(item.get("country", "AZ"), "AZ"),
+            languages=item.get("languages", ["Azerbaijani"]),
+            categories=item.get("categories") or categories(name, item.get("group", ""), cfg),
+            logo=item.get("logo", ""),
+            tvg_id=item.get("tvg_id", ""),
+            website=item.get("website", ""),
+            source="manual"
+        ))
+    return out
+
 def allowed(c, cfg):
     pol = cfg["policy"]
     u = c.url.lower()
@@ -128,12 +149,8 @@ def inspect(c, cfg):
     retries = cfg["discovery"].get("retries", 3)
     for attempt in range(retries):
         try:
-            body, final, hdr = fetch(
-                c.url,
-                cfg["discovery"]["timeout_seconds"],
-                cfg["discovery"]["max_manifest_bytes"],
-                {"User-Agent": cfg["discovery"].get("user_agent", UA)}
-            )
+            body, final, hdr = fetch(c.url, cfg["discovery"]["timeout_seconds"], cfg["discovery"]["max_manifest_bytes"],
+                                     {"User-Agent": cfg["discovery"].get("user_agent", UA)})
             c.latency_ms = round((time.perf_counter() - start) * 1000, 1)
             ct = (hdr.get("Content-Type") or "").lower()
             low = body[:200000].lower()
@@ -164,13 +181,8 @@ def inspect(c, cfg):
                     res = min((w * h) / 8294400, 1)
                 except Exception:
                     pass
-            c.score = 100 * (
-                0.35
-                + 0.15 * int(c.latency_ms is not None and c.latency_ms < 1000)
-                + 0.25 * res
-                + 0.15 * min(c.bitrate / 8000000, 1)
-                + 0.10 * https
-            )
+            c.score = 100 * (0.35 + 0.15 * int(c.latency_ms is not None and c.latency_ms < 1000) +
+                             0.25 * res + 0.15 * min(c.bitrate / 8000000, 1) + 0.10 * https)
             return c
         except Exception as e:
             last = str(e)
@@ -192,7 +204,7 @@ def write_m3u(items, path, title):
 
 def run(config_path):
     cfg = yaml.safe_load(Path(config_path).read_text(encoding="utf-8"))
-    candidates = []
+    candidates = manual_candidates(cfg)
     for src in cfg["catalogs"]:
         try:
             body, base, _ = fetch(src["url"], cfg["discovery"]["timeout_seconds"], 12 * 1024 * 1024)
@@ -225,7 +237,6 @@ def run(config_path):
             best[c.channel_id] = c
     if not best:
         raise RuntimeError("No healthy public stream candidates survived validation")
-    # Final global URL deduplication: one external stream URL may not be published twice.
     final_by_url = {}
     for c in best.values():
         u = canon(c.url)
@@ -254,13 +265,8 @@ def run(config_path):
             write_m3u([c for c in items if pred(c)], build / "playlists" / filename, title)
         data = [asdict(c) for c in items]
         (build / "data/catalog.json").write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-        report = {
-            "generated_at": now(),
-            "candidates_checked": len(checked),
-            "online_unique_channels": len(items),
-            "offline_candidates": sum(c.status == "offline" for c in checked),
-            "channels": data,
-        }
+        report = {"generated_at": now(), "candidates_checked": len(checked), "online_unique_channels": len(items),
+                  "offline_candidates": sum(c.status == "offline" for c in checked), "channels": data}
         (build / "status/health.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
         for src in build.iterdir():
             for f in src.rglob("*"):
