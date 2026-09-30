@@ -8,9 +8,9 @@ discovery:
   max_manifest_bytes: 1048576
   segment_timeout_seconds: 8
   max_segment_bytes: 262144
-  deep_check_limit: 350
+  deep_check_limit: 500
   minimum_success_ratio: 0.05
-  max_candidates_per_channel: 8
+  max_candidates_per_channel: 12
   countries: ["AZ", "RU"]
 
 catalogs:
@@ -26,6 +26,20 @@ catalogs:
     kind: m3u
     url: https://iptv-org.github.io/iptv/countries/ru.m3u
     country: RU
+  - id: iptv-org-rus-language
+    kind: m3u
+    url: https://iptv-org.github.io/iptv/languages/rus.m3u
+    country: RU
+    filter_languages: ["Russian"]
+  - id: iptv-org-aze-language
+    kind: m3u
+    url: https://iptv-org.github.io/iptv/languages/aze.m3u
+    country: AZ
+    filter_languages: ["Azerbaijani"]
+  - id: iptv-org-sports
+    kind: m3u
+    url: https://iptv-org.github.io/iptv/categories/sports.m3u
+    filter_categories: ["sports"]
 
 manual_streams:
   # Azerbaijani channels: several public candidates are kept where available.
