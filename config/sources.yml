@@ -1,0 +1,72 @@
+version: 1
+
+discovery:
+  timeout_seconds: 12
+  retries: 3
+  concurrency: 18
+  user_agent: "AZ-RU-IPTV-Hub/1.0"
+  max_manifest_bytes: 1048576
+  minimum_success_ratio: 0.05
+
+catalogs:
+  - id: iptv-org-az
+    kind: m3u
+    url: https://iptv-org.github.io/iptv/countries/az.m3u
+    country: AZ
+  - id: iptv-org-ru
+    kind: m3u
+    url: https://iptv-org.github.io/iptv/countries/ru.m3u
+    country: RU
+  - id: iptv-org-az-ru
+    kind: m3u
+    url: https://iptv-org.github.io/iptv/index.m3u
+    country: MIXED
+    filter_countries: [AZ, RU]
+
+policy:
+  reject_xtream: true
+  reject_tokenized_urls: true
+  reject_userinfo_urls: true
+  reject_non_http: true
+  allow_public_catalogs: true
+  authorized_relays: []
+
+quality:
+  prefer_https: true
+  prefer_hls: true
+  prefer_resolution: true
+  prefer_bitrate: true
+  latency_weight: 0.15
+  stability_weight: 0.35
+  resolution_weight: 0.25
+  bitrate_weight: 0.15
+  https_weight: 0.10
+
+epg:
+  enabled: false
+  sources: []
+
+aliases:
+  "az tv": "aztv"
+  "aztv": "aztv"
+  "ictimai": "ictimai"
+  "ictimai tv": "ictimai"
+  "arb": "arb"
+  "arb 24": "arb24"
+  "cbc": "cbc"
+  "real tv": "realtv"
+  "xəzər tv": "xezer"
+  "xazar tv": "xezer"
+  "rus": "rus"
+  "russia 1": "russia1"
+  "россия 1": "russia1"
+  "россия-1": "russia1"
+  "mir": "mir"
+  "мир": "mir"
+
+category_keywords:
+  sports: [sport, sports, футбол, хоккей, теннис, basketball, football, fight, combat]
+  movies: [movie, cinema, кино, фильм, кинопоказ, serial, сериал]
+  news: [news, новости, xəbər, xebər, информац, 24]
+  kids: [kids, дет, мульт, cartoon, children]
+  music: [music, музыка, muzika, hit, bridge]
