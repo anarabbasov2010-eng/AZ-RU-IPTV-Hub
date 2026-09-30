@@ -7,7 +7,7 @@ discovery:
   user_agent: "AZ-RU-IPTV-Hub/1.0"
   max_manifest_bytes: 1048576
   minimum_success_ratio: 0.05
-  max_candidates_per_channel: 6
+  max_candidates_per_channel: 8
 
 catalogs:
   - id: iptv-org-az
@@ -24,62 +24,200 @@ catalogs:
     country: RU
 
 manual_streams:
+  # Azerbaijani channels: several public candidates are kept where available.
+  # The pipeline tests them and publishes only healthy candidates.
+  - name: "Baku TV"
+    tvg_id: "BakuTV.az"
+    url: "https://rtmp.baku.tv/hls/bakutv.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["news"]
   - name: "Baku TV"
     tvg_id: "BakuTV.az"
     url: "https://rtmp.baku.tv/live/bakutv_720p.m3u8"
     country: "AZ"
     languages: ["Azerbaijani"]
     categories: ["news"]
-    website: "https://baku.tv/live"
+  - name: "Baku TV"
+    tvg_id: "BakuTV.az"
+    url: "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/baku-tv.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["news"]
+
   - name: "Idman TV"
     tvg_id: "IdmanTV.az"
-    url: "https://str.yodacdn.net/idman/mono.m3u8"
+    url: "http://109.205.166.68/server124/idman_az/index.m3u8"
     country: "AZ"
     languages: ["Azerbaijani"]
     categories: ["sports"]
-    website: "https://idmantv.az/"
+
   - name: "CBC Sport"
     tvg_id: "CBCSport.az"
     url: "https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8"
     country: "AZ"
     languages: ["Azerbaijani"]
     categories: ["sports"]
+  - name: "CBC Sport"
+    tvg_id: "CBCSport.az"
+    url: "http://65.21.196.155/azerbaijan/cbc_sport2/playlist.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["sports"]
+  - name: "CBC Sport"
+    tvg_id: "CBCSport.az"
+    url: "http://streams.livetv.az/azerbaijan/cbc_sport_hd/playlist.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["sports"]
+
   - name: "CBC"
     tvg_id: "CBC.az"
     url: "https://stream.cbctv.az:5443/LiveApp/streams/cbctv.m3u8"
     country: "AZ"
     languages: ["Azerbaijani"]
+    categories: ["news"]
+
+  - name: "İctimai TV"
+    tvg_id: "IctimaiTV.az"
+    url: "https://live.itv.az/itv.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
     categories: ["general"]
+  - name: "İctimai TV"
+    tvg_id: "IctimaiTV.az"
+    url: "http://109.205.166.68/server124/ictimai_tv/index.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+  - name: "İctimai TV"
+    tvg_id: "IctimaiTV.az"
+    url: "https://edge02.odtv.az/o1/ictimai/playlist.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+
+  - name: "AnewZ"
+    tvg_id: "AnewZTV.az"
+    url: "https://53be5ef2d13aa.streamlock.net/cubesanewz-secure/smil:cubesanewz-secure-web.smil/playlist.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["news"]
+
+  - name: "EL TV"
+    tvg_id: "ELTV.az"
+    url: "https://live.eltv.az/live/eltv/playlist.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+  - name: "EL TV"
+    tvg_id: "ELTV.az"
+    url: "http://85.132.53.162:1935/live/eltv/playlist.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+
+  - name: "ARB"
+    tvg_id: "ARB.az"
+    url: "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+  - name: "ARB"
+    tvg_id: "ARB.az"
+    url: "https://edge02.odtv.az/o1/arbtv/playlist.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+
+  - name: "ARB 24"
+    tvg_id: "ARB24.az"
+    url: "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb-24.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["news"]
+  - name: "ARB 24"
+    tvg_id: "ARB24.az"
+    url: "https://edge02.odtv.az/o7/arb24/playlist.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["news"]
+
+  - name: "ARB Günəş"
+    tvg_id: "ARBGunes.az"
+    url: "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb-gunes.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["kids"]
+
+  - name: "Azad TV"
+    tvg_id: "AzadTV.az"
+    url: "https://stream.atv.az/WebRTCAppEE/streams/780339739845112514894920_adaptive.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+
   - name: "Dünya TV"
     tvg_id: "DunyaTV.az"
-    url: "https://www.tvkaista.net/stream-forwarder/get.php?x=Dunya"
+    url: "https://stream.dunyatv.az/live/dunyatv.m3u8"
     country: "AZ"
     languages: ["Azerbaijani"]
     categories: ["general"]
-  - name: "Show Plus TV"
-    tvg_id: "ShowPlusTV.az"
-    url: "https://rtmp.showplus.tv/hls/myshow.m3u8"
+
+  - name: "Real TV"
+    tvg_id: "RealTV.az"
+    url: "https://edge02.odtv.az/o2/realtv/playlist.m3u8"
     country: "AZ"
     languages: ["Azerbaijani"]
-    categories: ["general"]
-  - name: "Az Star TV"
-    tvg_id: "AzStarTV.az"
-    url: "http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8"
+    categories: ["news"]
+  - name: "Real TV"
+    tvg_id: "RealTV.az"
+    url: "https://str.yodacdn.net/real/playlist.m3u8"
     country: "AZ"
     languages: ["Azerbaijani"]
-    categories: ["general"]
+    categories: ["news"]
+
   - name: "Space TV"
     tvg_id: "SpaceTV.az"
-    url: "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/space-tv.m3u8"
+    url: "http://109.205.166.68/server124/space_tv/index3.m3u8"
     country: "AZ"
     languages: ["Azerbaijani"]
     categories: ["general"]
-  - name: "Xezer TV"
-    tvg_id: "XezerTV.az"
-    url: "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/xezer-tv.m3u8"
+
+  - name: "Mədəniyyət TV"
+    tvg_id: "MedeniyyetTV.az"
+    url: "https://edge02.odtv.az/o1/medeniyyet/playlist.m3u8"
     country: "AZ"
     languages: ["Azerbaijani"]
     categories: ["general"]
+
+  - name: "Kanal S"
+    tvg_id: "KanalS.az"
+    url: "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/kanal-s.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+
+  - name: "AzTV"
+    tvg_id: "AzTV.az"
+    url: "https://stream8.cinerama.uz/1455/tracks-v1a1/mono.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["general"]
+
+  - name: "Naxçıvan TV"
+    tvg_id: "NaxcivanTV.az"
+    url: "http://95.217.196.109:8081/azerbaijan/naxcivan/playlist.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani", "Russian", "English"]
+    categories: ["general"]
+
+  - name: "Kəpəz TV"
+    tvg_id: "KapazTV.az"
+    url: "http://85.132.78.122:8050/hls/stream/index.m3u8"
+    country: "AZ"
+    languages: ["Azerbaijani"]
+    categories: ["news"]
 
 policy:
   reject_xtream: true
@@ -107,10 +245,15 @@ epg:
 aliases:
   "az tv": "aztv"
   "aztv": "aztv"
+  "az star tv": "azstar"
+  "azstar tv": "azstar"
   "ictimai": "ictimai"
   "ictimai tv": "ictimai"
+  "i̇ctimai tv": "ictimai"
   "arb": "arb"
   "arb 24": "arb24"
+  "arb gunes": "arbgunes"
+  "arb günəş": "arbgunes"
   "cbc": "cbc"
   "cbc sport": "cbcsport"
   "real tv": "realtv"
@@ -118,7 +261,18 @@ aliases:
   "xazar tv": "xezer"
   "xezer tv": "xezer"
   "baku tv": "bakutv"
+  "baku.tv": "bakutv"
   "idman tv": "idmantv"
+  "kapaz tv": "kapaz"
+  "kəpəz tv": "kapaz"
+  "space tv": "spacetv"
+  "naxcivan tv": "naxcivan"
+  "naxçıvan tv": "naxcivan"
+  "medeniyyet tv": "medeniyyet"
+  "mədəniyyət tv": "medeniyyet"
+  "dunya tv": "dunyatv"
+  "dünya tv": "dunyatv"
+  "kanal s": "kanals"
   "rus": "rus"
   "russia 1": "russia1"
   "россия 1": "russia1"
@@ -126,9 +280,56 @@ aliases:
   "mir": "mir"
   "мир": "mir"
 
+display_names:
+  "russia_1": "Россия 1"
+  "russia_24": "Россия 24"
+  "channel_one": "Первый канал"
+  "1tv": "Первый канал"
+  "ntv": "НТВ"
+  "ren_tv": "РЕН ТВ"
+  "ren": "РЕН ТВ"
+  "tnt": "ТНТ"
+  "sts": "СТС"
+  "tv3": "ТВ-3"
+  "fifth_channel": "Пятый канал"
+  "5tv": "Пятый канал"
+  "tv_center": "ТВ Центр"
+  "tv_centr": "ТВ Центр"
+  "mir": "МИР"
+  "mir_24": "МИР 24"
+  "otr": "ОТР"
+  "zvezda": "Звезда"
+  "zvezda_tv": "Звезда"
+  "muz_tv": "МУЗ-ТВ"
+  "muztv": "МУЗ-ТВ"
+  "match_tv": "Матч ТВ"
+  "match": "Матч ТВ"
+  "match_arena": "Матч! Арена"
+  "match_boev": "Матч! Боец"
+  "match_igra": "Матч! Игра"
+  "match_nash_sport": "Матч! Наш Спорт"
+  "match_premier": "Матч! Премьер"
+  "match_strana": "Матч! Страна"
+  "match_football_1": "Матч! Футбол 1"
+  "match_football_2": "Матч! Футбол 2"
+  "match_football_3": "Матч! Футбол 3"
+  "karusel": "Карусель"
+  "ntv": "НТВ"
+  "5kanal": "Пятый канал"
+  "tv1000": "TV1000"
+  "sts_love": "СТС Love"
+  "domashniy": "Домашний"
+  "yutv": "Ю"
+  "pyatnitsa": "Пятница!"
+  "zvezda": "Звезда"
+  "moe_tv": "Моё ТВ"
+  "2x2": "2x2"
+  "u": "Ю"
+  "tv3": "ТВ-3"
+
 category_keywords:
-  sports: [sport, sports, idman, футбол, хоккей, теннис, basketball, football, fight, combat]
+  sports: [sport, sports, спорт, спортив, idman, football, futbol, soccer, хоккей, хокке, теннис, basketball, баскетбол, fight, combat, match, матч, arena, арена, boec, боец, premier, футбол, eurosport]
   movies: [movie, cinema, кино, фильм, кинопоказ, serial, сериал]
-  news: [news, новости, xəbər, xebər, информац, 24]
-  kids: [kids, дет, мульт, cartoon, children]
-  music: [music, музыка, muzika, hit, bridge]
+  news: [news, новости, xəbər, xebər, xeber, информац, 24]
+  kids: [kids, дет, мульт, cartoon, children, karusel, карусель, gunes, günəş]
+  music: [music, музыка, muzika, hit, bridge, muz, муз]

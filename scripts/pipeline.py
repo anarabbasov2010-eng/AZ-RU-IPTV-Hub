@@ -63,7 +63,17 @@ def normalize_country(s, default=""):
 
 def clean_name(s):
     s = re.sub(r"\s+", " ", (s or "").strip())
-    return s.replace("&amp;", "&")
+    s = re.sub(r"\s*\((?:\d{3,4}p|\d{3,4}i)\)", "", s, flags=re.I)
+    s = re.sub(r"\s*\[(?:Not 24/7|Geo-blocked|Geo blocked)\]", "", s, flags=re.I)
+    return s.replace("&amp;", "&").strip()
+
+def display_name(name, country, cfg):
+    clean = clean_name(name)
+    if country != "RU":
+        return clean
+    aliases = cfg.get("display_names", {})
+    k = re.sub(r"[^\w\u0400-\u04ff]+", " ", clean.lower(), flags=re.UNICODE).strip()
+    return aliases.get(k, clean)
 
 def key(name, aliases):
     n = re.sub(r"[^\w\u0400-\u04ff]+", " ", name.lower(), flags=re.UNICODE).strip()
@@ -98,7 +108,7 @@ def parse_m3u(text, default_country, source, cfg):
             u = canon(urljoin(source, line))
             if not u:
                 continue
-            name = meta.get("name", "Unknown")
+            name = display_name(meta.get("name", "Unknown"), normalize_country(meta.get("country"), default_country), cfg)
             out.append(Candidate(
                 channel_id=key(name, cfg.get("aliases", {})),
                 name=name,
@@ -116,7 +126,7 @@ def parse_m3u(text, default_country, source, cfg):
 def manual_candidates(cfg):
     out = []
     for item in cfg.get("manual_streams", []):
-        name = clean_name(item.get("name", "Unknown"))
+        name = display_name(item.get("name", "Unknown"), normalize_country(item.get("country", "AZ"), "AZ"), cfg)
         url = canon(item.get("url", ""))
         if not url:
             continue
