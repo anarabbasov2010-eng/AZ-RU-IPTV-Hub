@@ -108,7 +108,7 @@ def load_guides(cfg):
     if not epg.get("enabled") or not epg.get("api_url"):
         return []
     try:
-        body, _, _ = fetch(epg["api_url"], cfg["discovery"]["timeout_seconds"], 12 * 1024 * 1024)
+        body, _, _ = fetch(epg["api_url"], cfg["discovery"]["timeout_seconds"], 40 * 1024 * 1024)
         return json.loads(body)
     except Exception as e:
         print(f"[WARN] EPG API: {e}")
