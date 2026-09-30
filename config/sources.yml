@@ -1,12 +1,13 @@
 version: 1
 
 discovery:
-  timeout_seconds: 12
-  retries: 3
-  concurrency: 18
+  timeout_seconds: 8
+  retries: 2
+  concurrency: 32
   user_agent: "AZ-RU-IPTV-Hub/1.0"
   max_manifest_bytes: 1048576
   minimum_success_ratio: 0.05
+  max_candidates_per_channel: 6
 
 catalogs:
   - id: iptv-org-az
