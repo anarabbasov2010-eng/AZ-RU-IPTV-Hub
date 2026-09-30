@@ -17,11 +17,6 @@ catalogs:
     kind: m3u
     url: https://iptv-org.github.io/iptv/countries/ru.m3u
     country: RU
-  - id: iptv-org-az-ru
-    kind: m3u
-    url: https://iptv-org.github.io/iptv/index.m3u
-    country: MIXED
-    filter_countries: [AZ, RU]
 
 policy:
   reject_xtream: true
