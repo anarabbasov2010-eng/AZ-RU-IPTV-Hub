@@ -53,7 +53,7 @@ def canon(url):
         netloc += f":{port}"
     return urlunsplit((p.scheme.lower(), netloc, p.path or "/", p.query, ""))
 
-def clean_name(s):
+def normalize_country(s, default=""):\n    x=str(s or default).strip().lower()\n    if x in ("az","azerbaijan","азербайджан"): return "AZ"\n    if x in ("ru","russia","россия"): return "RU"\n    return str(s or default).strip()\n\ndef clean_name(s):
     s = re.sub(r"\s+", " ", (s or "").strip())
     return s.replace("&amp;", "&")
 
@@ -95,7 +95,7 @@ def parse_m3u(text, default_country, source, cfg):
                 channel_id=key(name, cfg.get("aliases", {})),
                 name=name,
                 url=u,
-                country=meta.get("country") or default_country,
+                country=normalize_country(meta.get("country"), default_country),
                 languages=[x.strip() for x in re.split("[,;|]", meta.get("lang", "")) if x.strip()],
                 categories=categories(name, meta.get("group", ""), cfg),
                 logo=meta.get("logo", ""),
