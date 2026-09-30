@@ -243,7 +243,7 @@ def run(config_path):
         filters = [
             ("azerbaijan.m3u", lambda c: c.country == "AZ", "Azerbaijan"),
             ("russia.m3u", lambda c: c.country == "RU", "Russia"),
-            ("russian-language.m3u", lambda c: any("ru" in x.lower() or "russian" in x.lower() for x in c.languages), "Russian language"),
+            ("russian-language.m3u", lambda c: c.country == "RU" or any("russian" in x.lower() or x.lower() == "ru" for x in c.languages), "Russian language"),
             ("sports.m3u", lambda c: "sports" in c.categories, "Sports"),
             ("movies.m3u", lambda c: "movies" in c.categories, "Movies"),
             ("news.m3u", lambda c: "news" in c.categories, "News"),
