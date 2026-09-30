@@ -14,6 +14,10 @@ catalogs:
     kind: m3u
     url: https://iptv-org.github.io/iptv/countries/az.m3u
     country: AZ
+  - id: iptv-org-az-language
+    kind: m3u
+    url: https://iptv-org.github.io/iptv/languages/aze.m3u
+    country: AZ
   - id: iptv-org-ru
     kind: m3u
     url: https://iptv-org.github.io/iptv/countries/ru.m3u
