@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# News | generated 2026-10-01T15:34:52+00:00
+# News | generated 2026-10-01T21:09:16+00:00
 #EXTINF:-1 tvg-id="APATv.az" tvg-name="APA Tv" tvg-logo="https://i.imgur.com/2CSW4V4.png" group-title="AZ • News",APA Tv
 http://stream.apa.tv/apastream/index.m3u8
 #EXTINF:-1 tvg-id="KapazTV.az" tvg-name="Kəpəz TV" tvg-logo="https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/500px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png" group-title="AZ • News",Kəpəz TV
@@ -33,17 +33,19 @@ https://streaming.televizor24.cc/live/27.m3u8
 #EXTINF:-1 tvg-id="RT.ru" tvg-name="RT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png" group-title="RU • News",RT
 https://rumble.com/live-hls-dvr/33aw1a/playlist.m3u8
 #EXTINF:-1 tvg-id="RTArabic.ru" tvg-name="RT Arabic" tvg-logo="https://i.imgur.com/G8vGrn1.png" group-title="RU • News",RT Arabic
-https://rt-arb.rttv.com/live/rtarab/playlist.m3u8
+https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8
 #EXTINF:-1 tvg-id="RTBalkan.ru" tvg-name="RT Balkan" tvg-logo="https://pbs.twimg.com/media/FiHmjBrWIBsN41d.jpg" group-title="RU • News",RT Balkan
-https://rt-srb.rttv.com/live/rtbalkan/playlist.m3u8
+https://rt-srb.rttv.com/dvr/rtbalkan/playlist.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru" tvg-name="RT en Espanol" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png" group-title="RU • News",RT en Espanol
 https://cloud.odysee.live/content/9f638b94d11d879726ae55dd5a0923621b96a45b/master.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@HD" tvg-name="Russia-24 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png" group-title="RU • News",Russia-24 HD
+http://77.232.131.211/Rossiya24/index.m3u8
 #EXTINF:-1 tvg-id="Sochi24.ru" tvg-name="Sochi24" tvg-logo="https://i.imgur.com/iwWxkl6.png" group-title="RU • General",Sochi24
 http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Surgut24.ru" tvg-name="Surgut 24" tvg-logo="https://i.imgur.com/OxvqXMt.png" group-title="RU • News",Surgut 24
 https://sitv.ru/vgtrk/stv.m3u8
 #EXTINF:-1 tvg-id="T24.ru" tvg-name="T24" tvg-logo="https://i.imgur.com/1W6R14o.png" group-title="RU • News",T24
-http://stream.mcquack.net/209/index.m3u8
+http://178.134.1.158:8081/t24/index.m3u8
 #EXTINF:-1 tvg-id="Tolk.ru" tvg-name="Tolk" tvg-logo="https://i.imgur.com/l7JZ79P.png" group-title="RU • News",Tolk
 https://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="VestiFM.ru" tvg-name="Vesti FM" tvg-logo="https://i.imgur.com/ZBHqSZj.png" group-title="RU • News",Vesti FM
@@ -51,6 +53,6 @@ https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
 #EXTINF:-1 tvg-id="Vetta24.ru" tvg-name="Vetta 24" tvg-logo="https://i.imgur.com/zKH1b5k.png" group-title="RU • News",Vetta 24
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 tvg-id="Mir24.ru" tvg-name="МИР 24" tvg-logo="https://i.imgur.com/dj9c8Yd.png" group-title="RU • News",МИР 24
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+http://5.188.159.128:8070/mir_24/index.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru" tvg-name="Россия 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png" group-title="RU • News",Россия 24
 https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8
