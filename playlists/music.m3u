@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# Music | generated 2026-10-03T23:12:30+00:00
+# Music | generated 2026-10-04T06:04:44+00:00
 #EXTINF:-1 tvg-id="KNMusicTV.az" tvg-name="KN Music TV" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" group-title="AZ • Music",KN Music TV
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="1HDMusicTelevision.ru" tvg-name="1HD Music Television" tvg-logo="https://i.imgur.com/4Ww7CsR.png" group-title="RU • Music",1HD Music Television
@@ -7,13 +7,11 @@ http://176.118.197.101/1HD/index.m3u8
 #EXTINF:-1 tvg-id="BabyTime.ru" tvg-name="Baby Time" tvg-logo="https://i.imgur.com/lW3WIBD.png" group-title="RU • Kids",Baby Time
 http://178.134.1.158:8081/babytime/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGE.ru" tvg-name="BRIDGE" tvg-logo="https://i.imgur.com/qYObfrG.png" group-title="RU • Music",BRIDGE
-http://178.134.1.158:8081/BRIDGE/index.m3u8
+http://194.143.148.28:8080/RT_DOC/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGEClassic.ru" tvg-name="BRIDGE Classic" tvg-logo="https://i.imgur.com/JJTQq81.png" group-title="RU • Classic",BRIDGE Classic
-http://5.188.159.128:8070/Bridge_TV_Classic/index.m3u8
+http://stream.mcquack.net/272/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGEDeluxe.ru@HD" tvg-name="BRIDGE Deluxe HD" tvg-logo="https://i.imgur.com/EazL8w7.png" group-title="RU • Music",BRIDGE Deluxe HD
 http://stream.mcquack.net/92/index.m3u8
-#EXTINF:-1 tvg-id="BRIDGEHits.ru" tvg-name="BRIDGE Hits" tvg-logo="https://i.imgur.com/sIW9oR4.png" group-title="RU • Music",BRIDGE Hits
-http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGERock.ru" tvg-name="BRIDGE Rock" tvg-logo="https://i.imgur.com/MHuwct2.png" group-title="RU • Music",BRIDGE Rock
 http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenBirmaPlay.ru" tvg-name="City Eden Birma Play" tvg-logo="https://i.imgur.com/38Q5L5W.png" group-title="RU • Music",City Eden Birma Play
@@ -45,9 +43,7 @@ https://kino-1.catcast.tv/content/37739/index.m3u8
 #EXTINF:-1 tvg-id="MuzykaLive.ru" tvg-name="Muzyka Live" tvg-logo="https://cdn2.red-media.ru/wp-content/uploads/2016/08/LOGO_MUSIC_LIVE.png" group-title="RU • Music",Muzyka Live
 http://stream.mcquack.net/303/index.m3u8
 #EXTINF:-1 tvg-id="MuzykaPervogo.ru" tvg-name="Muzyka Pervogo" tvg-logo="https://i.imgur.com/U0vKj3P.png" group-title="RU • Music",Muzyka Pervogo
-http://88.212.15.19/live/test_muzyka_pervogo/playlist.m3u8
-#EXTINF:-1 tvg-id="Nashemuzhskoe.ru@HD" tvg-name="Nashe muzhskoe HD" tvg-logo="https://i.imgur.com/QRWKpmb.png" group-title="RU • Movies",Nashe muzhskoe HD
-http://stream.mcquack.net/362/index.m3u8
+https://stream8.cinerama.uz/1201/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="RadioShanson.ru" tvg-name="Radio Shanson" tvg-logo="https://i.imgur.com/lbqM3K2.png" group-title="RU • Music",Radio Shanson
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 #EXTINF:-1 tvg-id="RUTV.ru" tvg-name="RU.TV" tvg-logo="https://i.imgur.com/Z7HUU7V.png" group-title="RU • Music",RU.TV
@@ -60,5 +56,7 @@ https://streaming.thestream.cyou/live/7009.m3u8
 https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8
 #EXTINF:-1 tvg-id="StranaFM.ru" tvg-name="Strana FM" tvg-logo="https://i.imgur.com/WsPlKJJ.png" group-title="RU • Music",Strana FM
 https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="vijuPlusMegahit.ru@HD" tvg-name="viju+ Megahit HD" tvg-logo="https://i.imgur.com/oIQNddV.png" group-title="RU • Movies",viju+ Megahit HD
+http://stream.mcquack.net/200/index.m3u8
 #EXTINF:-1 tvg-id="MuzTV.ru" tvg-name="МУЗ-ТВ" tvg-logo="https://i.imgur.com/BtqrHmz.png" group-title="RU • Music",МУЗ-ТВ
-http://31.148.5.241/kanal_20/index.m3u8
+https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8
