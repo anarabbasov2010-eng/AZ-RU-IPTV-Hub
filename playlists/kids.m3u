@@ -1,28 +1,30 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# Kids | generated 2026-10-09T15:26:20+00:00
+# Kids | generated 2026-10-09T21:03:28+00:00
 #EXTINF:-1 tvg-id="Ani.ru" tvg-name="Ani" tvg-logo="https://i.imgur.com/i2AP0hp.png" group-title="RU • Kids",Ani
 http://stream.mcquack.net/306/index.m3u8
 #EXTINF:-1 tvg-id="BabyTime.ru" tvg-name="Baby Time" tvg-logo="https://i.imgur.com/lW3WIBD.png" group-title="RU • Kids",Baby Time
 http://178.134.1.158:8081/babytime/index.m3u8
 #EXTINF:-1 tvg-id="Carousel.ru" tvg-name="Carousel" tvg-logo="https://i.imgur.com/4wmnx1W.png" group-title="RU • Kids",Carousel
 http://flussonic.linkintel.ru/Karusel/index.m3u8
+#EXTINF:-1 tvg-id="Carousel.ru@Plus4" tvg-name="Carousel +4" tvg-logo="https://i.imgur.com/4wmnx1W.png" group-title="RU • Kids",Carousel +4
+http://185.37.150.46/Karusel/index.m3u8
 #EXTINF:-1 tvg-id="Detskiy.ru" tvg-name="Detskiy" tvg-logo="https://mt.media/upload/iblock/c22/pndw8yi2jwgppdrjikm3eusqp8087kr3.png" group-title="RU • Kids",Detskiy
 https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="GulliGirl.ru" tvg-name="Gulli Girl" tvg-logo="https://i.imgur.com/lbViDuC.png" group-title="RU • Kids",Gulli Girl
-http://stream.mcquack.net/305/index.m3u8
+https://stream8.cinerama.uz/1445/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="KapitanFantastika.ru" tvg-name="Kapitan Fantastika" tvg-logo="https://i.imgur.com/K3PSHiT.png" group-title="RU • Kids",Kapitan Fantastika
 https://stream8.cinerama.uz/1406/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Mama.ru" tvg-name="Mama" tvg-logo="https://i.imgur.com/kmMIjjf.png" group-title="RU • Kids",Mama
-http://stream.mcquack.net/79/index.m3u8
+http://flussonic.linkintel.ru/mama/index.m3u8
 #EXTINF:-1 tvg-id="Mult.ru" tvg-name="Mult" tvg-logo="https://i.imgur.com/xi351Fx.png" group-title="RU • Kids",Mult
-http://stream.mcquack.net/232/index.m3u8
+http://flussonic.linkintel.ru/Mult/index.m3u8
 #EXTINF:-1 tvg-id="Multimuzyka.ru" tvg-name="Mult i muzyka" tvg-logo="https://i.imgur.com/SYt6BZP.png" group-title="RU • Kids",Mult i muzyka
 http://stream.mcquack.net/82/index.m3u8
 #EXTINF:-1 tvg-id="Multilandia.ru" tvg-name="Multilandia" tvg-logo="https://i.imgur.com/ccwijY0.png" group-title="RU • Kids",Multilandia
 https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="NickJr.ru" tvg-name="Nick Jr." tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" group-title="RU • Kids",Nick Jr.
 https://stream8.cinerama.uz/1501/playlist.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.ru@SD" tvg-name="Nickelodeon (Russia)" tvg-logo="https://i.imgur.com/w8iE8dV.png" group-title="RU • Kids",Nickelodeon (Russia)
+#EXTINF:-1 tvg-id="Nickelodeon.ru" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/w8iE8dV.png" group-title="RU • Kids",Nickelodeon
 http://stream.mcquack.net/443/index.m3u8
 #EXTINF:-1 tvg-id="NicktoonsCIS.ru" tvg-name="Nicktoons CIS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" group-title="RU • Kids",Nicktoons CIS
 https://stream8.cinerama.uz/1502/playlist.m3u8
