@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# Music | generated 2026-10-09T06:21:00+00:00
+# Music | generated 2026-10-09T15:26:20+00:00
 #EXTINF:-1 tvg-id="KNMusicTV.az" tvg-name="KN Music TV" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" group-title="AZ • Music",KN Music TV
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="1HDMusicTelevision.ru" tvg-name="1HD Music Television" tvg-logo="https://i.imgur.com/4Ww7CsR.png" group-title="RU • Music",1HD Music Television
@@ -8,27 +8,19 @@ http://176.118.197.101/1HD/index.m3u8
 http://178.134.1.158:8081/babytime/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGE.ru" tvg-name="BRIDGE" tvg-logo="https://i.imgur.com/qYObfrG.png" group-title="RU • Music",BRIDGE
 http://194.143.148.28:8080/RT_DOC/index.m3u8
-#EXTINF:-1 tvg-id="BRIDGEClassic.ru" tvg-name="BRIDGE Classic" tvg-logo="https://i.imgur.com/JJTQq81.png" group-title="RU • Classic",BRIDGE Classic
-http://5.188.159.128:8070/Bridge_TV_Classic/index.m3u8
-#EXTINF:-1 tvg-id="BRIDGEDeluxe.ru" tvg-name="BRIDGE Deluxe" tvg-logo="https://i.imgur.com/EazL8w7.png" group-title="RU • Music",BRIDGE Deluxe
+#EXTINF:-1 tvg-id="BRIDGEDeluxe.ru@HD" tvg-name="BRIDGE Deluxe HD" tvg-logo="https://i.imgur.com/EazL8w7.png" group-title="RU • Music",BRIDGE Deluxe HD
 http://stream.mcquack.net/92/index.m3u8
-#EXTINF:-1 tvg-id="BRIDGEHits.ru" tvg-name="BRIDGE Hits" tvg-logo="https://i.imgur.com/sIW9oR4.png" group-title="RU • Music",BRIDGE Hits
-http://stream.mcquack.net/320/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGERock.ru" tvg-name="BRIDGE Rock" tvg-logo="https://i.imgur.com/MHuwct2.png" group-title="RU • Music",BRIDGE Rock
 http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenBirmaPlay.ru" tvg-name="City Eden Birma Play" tvg-logo="https://i.imgur.com/38Q5L5W.png" group-title="RU • Music",City Eden Birma Play
 https://cityeden.catcast.tv/content/34364/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenClassicMusic.ru" tvg-name="City Eden Classic Music" tvg-logo="https://i.imgur.com/l7BE8l6.png" group-title="RU • Music",City Eden Classic Music
 https://cityeden.catcast.tv/content/47400/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenPlay.ru" tvg-name="City Eden Play" tvg-logo="https://i.imgur.com/ozEqob9.png" group-title="RU • Music",City Eden Play
-https://cityeden.catcast.tv/content/34100/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenSirtakiTV.ru" tvg-name="City Eden Sirtaki TV" tvg-logo="https://i.imgur.com/V3MTfyc.png" group-title="RU • Music",City Eden Sirtaki TV
-https://cityeden.catcast.tv/content/46421/index.m3u8
+#EXTINF:-1 tvg-id="ClassicMusic.ru" tvg-name="Classic Music" tvg-logo="https://i.imgur.com/TpXs1qA.png" group-title="RU • Music",Classic Music
+http://stream.mcquack.net/312/index.m3u8
 #EXTINF:-1 tvg-id="DanceHits80.ru" tvg-name="DanceHits80" tvg-logo="https://i.imgur.com/uMw3kks.png" group-title="RU • Music",DanceHits80
 http://dancehits80.denvs.ru:8080/index.m3u8
 #EXTINF:-1 tvg-id="EuropaPlusTV.ru" tvg-name="Europa Plus TV" tvg-logo="https://i.imgur.com/GLc4qrc.png" group-title="RU • Music",Europa Plus TV
-http://stream.mcquack.net/184/index.m3u8
-#EXTINF:-1 tvg-id="EuropaPlusTV.ru@Belarus" tvg-name="Europa Plus TV Belarus" tvg-logo="https://i.imgur.com/GLc4qrc.png" group-title="RU • Music",Europa Plus TV Belarus
 http://46.53.200.153:7777/play/EuropaPlus/index.m3u8
 #EXTINF:-1 tvg-id="FirstMusicChannel.by@SD" tvg-name="First Music Channel" tvg-logo="https://i.imgur.com/YdyFJrl.png" group-title="RU • Music",First Music Channel
 http://rtmp.one.by:1300/
