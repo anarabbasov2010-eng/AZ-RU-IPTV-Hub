@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# Kids | generated 2026-10-17T18:37:25+00:00
+# Kids | generated 2026-10-17T22:28:58+00:00
 #EXTINF:-1 tvg-id="Ani.ru" tvg-name="Ani" tvg-logo="https://i.imgur.com/i2AP0hp.png" group-title="RU • Kids",Ani
 http://stream.mcquack.net/306/index.m3u8
 #EXTINF:-1 tvg-id="Carousel.ru" tvg-name="Carousel" tvg-logo="https://i.imgur.com/4wmnx1W.png" group-title="RU • Kids",Carousel
@@ -15,7 +15,7 @@ http://stream.mcquack.net/144/index.m3u8
 #EXTINF:-1 tvg-id="Mama.ru" tvg-name="Mama" tvg-logo="https://i.imgur.com/kmMIjjf.png" group-title="RU • Kids",Mama
 http://flussonic.linkintel.ru/mama/index.m3u8
 #EXTINF:-1 tvg-id="Mult.ru" tvg-name="Mult" tvg-logo="https://i.imgur.com/xi351Fx.png" group-title="RU • Kids",Mult
-http://flussonic.linkintel.ru/Mult/index.m3u8
+http://stream.mcquack.net/232/index.m3u8
 #EXTINF:-1 tvg-id="Multimuzyka.ru" tvg-name="Mult i muzyka" tvg-logo="https://i.imgur.com/SYt6BZP.png" group-title="RU • Kids",Mult i muzyka
 http://stream.mcquack.net/82/index.m3u8
 #EXTINF:-1 tvg-id="Multilandia.ru" tvg-name="Multilandia" tvg-logo="https://i.imgur.com/ccwijY0.png" group-title="RU • Kids",Multilandia
@@ -35,7 +35,7 @@ https://stream8.cinerama.uz/1407/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="SmileTV.ru" tvg-name="Smile TV" tvg-logo="https://static.tildacdn.com/tild3936-3138-4234-b536-326531343933/-_13x.png" group-title="RU • Kids",Smile TV
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 #EXTINF:-1 tvg-id="Solnce.ru" tvg-name="Solnce" tvg-logo="https://i.imgur.com/HCefxaK.png" group-title="RU • Animation",Solnce
-http://217.114.191.150/Solnce/index.m3u8
+https://tv.mediacdn.ru/live/solntse/playlist.m3u8
 #EXTINF:-1 tvg-id="STSkids.ru" tvg-name="STS kids" tvg-logo="https://i.imgur.com/o9kLpAL.png" group-title="RU • Kids",STS kids
 http://stream.mcquack.net/197/index.m3u8
 #EXTINF:-1 tvg-id="SuperGeroi.ru" tvg-name="SuperGeroi" tvg-logo="https://i.imgur.com/c0zZUR1.png" group-title="RU • Kids",SuperGeroi
