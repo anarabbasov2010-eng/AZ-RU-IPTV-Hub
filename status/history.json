@@ -698,5 +698,16 @@
     "epg_mapped_channels": 0,
     "epg_channels": 0,
     "epg_programs": 0
+  },
+  {
+    "generated_at": "2026-10-18T04:44:49+00:00",
+    "online_unique_channels": 410,
+    "online_candidates": 737,
+    "offline_candidates": 367,
+    "deep_checked": 514,
+    "deep_segment_ok": 327,
+    "epg_mapped_channels": 0,
+    "epg_channels": 0,
+    "epg_programs": 0
   }
 ]
