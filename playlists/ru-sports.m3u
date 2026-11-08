@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# Russian Sports | generated 2026-11-08T15:22:46+00:00
+# Russian Sports | generated 2026-11-08T20:35:28+00:00
 #EXTINF:-1 tvg-id="AstrahanRuSport.ru" tvg-name="Astrahan.Ru Sport" tvg-logo="https://i.imgur.com/BKaEtqL.png" group-title="RU • Sports",Astrahan.Ru Sport
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:-1 tvg-id="BoksTV.ru" tvg-name="Boks TV" tvg-logo="https://i.imgur.com/R1UjyfX.png" group-title="RU • Sports",Boks TV
@@ -12,6 +12,8 @@ https://s7.iptv-24.net/1452/playlist.m3u8
 http://176.118.197.101/KHL/index.m3u8
 #EXTINF:-1 tvg-id="KHLPrime.ru" tvg-name="KHL Prime" tvg-logo="https://i.imgur.com/pwxT0ON.png" group-title="RU • Sports",KHL Prime
 http://stream.mcquack.net/178/index.m3u8
+#EXTINF:-1 tvg-id="MatchBoets.ru" tvg-name="Match! Boets" tvg-logo="https://i.imgur.com/DogOkA4.png" group-title="RU • Sports",Match! Boets
+http://stream.mcquack.net/112/index.m3u8
 #EXTINF:-1 tvg-id="MatchUltra.ru" tvg-name="Match! Ultra" tvg-logo="https://www.kartina.tv/media/news/images/News/SEO/kanal-match-ultra.jpg" group-title="RU • Sports",Match! Ultra
 http://31.148.5.241/kanal_3/index.m3u8
 #EXTINF:-1 tvg-id="MMATVcom.ru" tvg-name="MMA-TV.com" tvg-logo="https://i.imgur.com/QhdxNsB.png" group-title="RU • Sports",MMA-TV.com
@@ -20,8 +22,6 @@ https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 http://178.124.179.122:8080/Setanta1/index.m3u8
 #EXTINF:-1 tvg-id="RussianExtremeUltra.ru" tvg-name="Russian Extreme Ultra" tvg-logo="https://i.imgur.com/Dk8VbAc.png" group-title="RU • Sports",Russian Extreme Ultra
 http://46.53.200.153:7777/play/test_krask1/index.m3u8
-#EXTINF:-1 tvg-id="Sportivnyy.ru" tvg-name="Sportivnyy" tvg-logo="https://i.imgur.com/ujS6mMo.png" group-title="RU • Sports",Sportivnyy
-https://live-3.otcnet.ru/sportivny/index.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@Russia" tvg-name="Trace Sport Stars Russia" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="RU • Sports",Trace Sport Stars Russia
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="UDAR.ru" tvg-name="UDAR" tvg-logo="https://mt.media/upload/iblock/2b3/2b3cf99141bf7f99cda377eec62ec084.png" group-title="RU • Sports",UDAR
