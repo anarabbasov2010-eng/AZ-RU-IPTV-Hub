@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# Azerbaijan | generated 2026-11-19T23:10:15+00:00
+# Azerbaijan | generated 2026-11-20T07:29:15+00:00
 #EXTINF:-1 tvg-id="APATv.az" tvg-name="APA Tv" tvg-logo="https://i.imgur.com/2CSW4V4.png" group-title="AZ • News",APA Tv
 http://stream.apa.tv/apastream/index.m3u8
 #EXTINF:-1 tvg-id="AyazTV.az" tvg-name="Ayaz TV" tvg-logo="https://www.ayaztv.com/storage/assets/site_logo.png" group-title="AZ • General",Ayaz TV
-https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/1080p/1080p.m3u8
+https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8
 #EXTINF:-1 tvg-id="AzStarTV.ca@SD" tvg-name="Az Star TV" tvg-logo="https://i.imgur.com/di3XX5L.png" group-title="AZ • General",Az Star TV
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AzTV.az" tvg-name="Az TV" tvg-logo="https://i.imgur.com/snBMMeH.png" group-title="AZ • General",Az TV
@@ -15,7 +15,7 @@ https://rtmp.baku.tv/hls/bakutv.m3u8
 #EXTINF:-1 tvg-id="DunyaTV.az" tvg-name="Dünya TV" group-title="AZ • General",Dünya TV
 https://stream.dunyatv.az/live/dunyatv.m3u8
 #EXTINF:-1 tvg-id="ELTV.az" tvg-name="EL TV" tvg-logo="https://i.imgur.com/tTlokZ2.png" group-title="AZ • General",EL TV
-https://live.eltv.az/live/eltv/playlist.m3u8
+http://85.132.53.162:1935/live/eltv/playlist.m3u8
 #EXTINF:-1 tvg-id="GunAzTV.us@SD" tvg-name="GunAz TV" tvg-logo="https://i.imgur.com/2ZnQazl.png" group-title="AZ • General",GunAz TV
 https://tv.gunaz.tv/hls/live.m3u8
 #EXTINF:-1 tvg-id="KanalS.az" tvg-name="Kanal S" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Kanal%20S.png" group-title="AZ • General",Kanal S
