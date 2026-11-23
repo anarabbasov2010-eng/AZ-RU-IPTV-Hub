@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# Kids | generated 2026-11-22T16:25:34+00:00
+# Kids | generated 2026-11-23T01:01:38+00:00
 #EXTINF:-1 tvg-id="BabyTime.ru" tvg-name="Baby Time" tvg-logo="https://i.imgur.com/lW3WIBD.png" group-title="RU • Kids",Baby Time
 http://178.134.1.158:8081/babytime/index.m3u8
 #EXTINF:-1 tvg-id="Carousel.ru" tvg-name="Carousel" tvg-logo="https://i.imgur.com/4wmnx1W.png" group-title="RU • Kids",Carousel
-https://streaming.televizor24.cc/live/11.m3u8
+http://31.148.5.241/kanal_8/index.m3u8
 #EXTINF:-1 tvg-id="Carousel.ru@Plus4" tvg-name="Carousel +4" tvg-logo="https://i.imgur.com/4wmnx1W.png" group-title="RU • Kids",Carousel +4
 http://185.37.150.46/Karusel/index.m3u8
 #EXTINF:-1 tvg-id="CartoonClassics.ru" tvg-name="Cartoon Classics" tvg-logo="https://sales.planbkino.tv//b/c/471.png" group-title="RU • Kids",Cartoon Classics
@@ -33,7 +33,7 @@ https://stream8.cinerama.uz/1407/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="SmileTV.ru" tvg-name="Smile TV" tvg-logo="https://static.tildacdn.com/tild3936-3138-4234-b536-326531343933/-_13x.png" group-title="RU • Kids",Smile TV
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Detskoe.ru" tvg-name="Smotrim 100% Detskoe" tvg-logo="https://i.imgur.com/1hsNeTa.png" group-title="RU • Kids",Smotrim 100% Detskoe
-https://stream.smotrim.ru/hls2/fasttv05/playlist_3.m3u8
+https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Solnce.ru" tvg-name="Solnce" tvg-logo="https://i.imgur.com/HCefxaK.png" group-title="RU • Animation",Solnce
 https://tv.mediacdn.ru/live/solntse/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperGeroi.ru" tvg-name="SuperGeroi" tvg-logo="https://i.imgur.com/c0zZUR1.png" group-title="RU • Kids",SuperGeroi

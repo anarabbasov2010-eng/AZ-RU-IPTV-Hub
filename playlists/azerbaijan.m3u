@@ -1,7 +1,9 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# Azerbaijan | generated 2026-11-22T16:25:34+00:00
+# Azerbaijan | generated 2026-11-23T01:01:38+00:00
 #EXTINF:-1 tvg-id="ARB24.az" tvg-name="ARB 24" tvg-logo="https://i.imgur.com/mtvIFyq.png" group-title="AZ • News",ARB 24
 https://operativmm.az/tvs/arb24/stream/index.m3u8
+#EXTINF:-1 tvg-id="AyazTV.az" tvg-name="Ayaz TV" tvg-logo="https://www.ayaztv.com/storage/assets/site_logo.png" group-title="AZ • General",Ayaz TV
+https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8
 #EXTINF:-1 tvg-id="AzStarTV.ca@SD" tvg-name="Az Star TV" tvg-logo="https://i.imgur.com/di3XX5L.png" group-title="AZ • General",Az Star TV
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AzTV.az" tvg-name="Az TV" tvg-logo="https://i.imgur.com/snBMMeH.png" group-title="AZ • General",Az TV
@@ -19,4 +21,4 @@ https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
 #EXTINF:-1 tvg-id="KapazTV.az" tvg-name="Kəpəz TV" tvg-logo="https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/500px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png" group-title="AZ • News",Kəpəz TV
 http://85.132.78.122:8050/hls/stream/index.m3u8
 #EXTINF:-1 tvg-id="WestAzerbaijanTV.ir@SD" tvg-name="West Azerbaijan TV" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/2/21/Urmia_TV.svg/960px-Urmia_TV.svg.png" group-title="AZ • General",West Azerbaijan TV
-https://live-aburayhan1111.telewebion.ir/ek/azarbayjangharbi/live/playlist.m3u8?isp=NA&city=NA
+https://live-aburayhan1107.telewebion.ir/ek/azarbayjangharbi/live/playlist.m3u8?isp=NA&city=NA
