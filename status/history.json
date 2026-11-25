@@ -1,16 +1,5 @@
 [
   {
-    "generated_at": "2026-10-03T13:32:31+00:00",
-    "online_unique_channels": 386,
-    "online_candidates": 689,
-    "offline_candidates": 559,
-    "deep_checked": 516,
-    "deep_segment_ok": 345,
-    "epg_mapped_channels": 0,
-    "epg_channels": 0,
-    "epg_programs": 0
-  },
-  {
     "generated_at": "2026-10-03T19:21:53+00:00",
     "online_unique_channels": 388,
     "online_candidates": 699,
@@ -1843,6 +1832,17 @@
     "offline_candidates": 527,
     "deep_checked": 526,
     "deep_segment_ok": 347,
+    "epg_mapped_channels": 0,
+    "epg_channels": 0,
+    "epg_programs": 0
+  },
+  {
+    "generated_at": "2026-11-25T14:34:48+00:00",
+    "online_unique_channels": 363,
+    "online_candidates": 606,
+    "offline_candidates": 514,
+    "deep_checked": 528,
+    "deep_segment_ok": 364,
     "epg_mapped_channels": 0,
     "epg_channels": 0,
     "epg_programs": 0
