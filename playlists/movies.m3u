@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# Movies | generated 2026-11-27T00:43:39+00:00
-#EXTINF:-1 tvg-id="Bollywood.ru@HD" tvg-name="Bollywood HD" tvg-logo="https://i.imgur.com/YLQRnXt.png" group-title="RU • Movies",Bollywood HD
+# Movies | generated 2026-11-27T14:01:32+00:00
+#EXTINF:-1 tvg-id="Bollywood.ru" tvg-name="Bollywood" tvg-logo="https://i.imgur.com/YLQRnXt.png" group-title="RU • Movies",Bollywood
 http://176.118.197.101/Bollywood_HD/index.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.ro@Russia" tvg-name="Bollywood HD Russia" tvg-logo="https://i.imgur.com/scDKOLS.png" group-title="RU • Movies",Bollywood HD Russia
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
@@ -28,6 +28,8 @@ https://cityeden.catcast.tv/content/41331/index.m3u8
 https://cityeden.catcast.tv/content/40783/index.m3u8
 #EXTINF:-1 tvg-id="Domkino.ru" tvg-name="Dom kino" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/960px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png" group-title="RU • Movies",Dom kino
 https://streaming.thestream.cyou/live/44.m3u8
+#EXTINF:-1 tvg-id="Dorama.ru" tvg-name="Dorama" tvg-logo="https://i.imgur.com/ZH5LuXU.png" group-title="RU • Movies",Dorama
+https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Evrokino.ru" tvg-name="Evrokino" tvg-logo="https://i.imgur.com/8LPtPf6.png" group-title="RU • Movies",Evrokino
 http://176.118.197.101/Evrokino/index.m3u8
 #EXTINF:-1 tvg-id="HorosheeKino.ru" tvg-name="Horoshee Kino" tvg-logo="https://i.imgur.com/ZbOqfy4.png" group-title="RU • Movies",Horoshee Kino
@@ -48,6 +50,10 @@ http://176.118.197.101/KinoTvHD/playlist.m3u8
 http://s7.merlive.am/Kinoxit/index.m3u8
 #EXTINF:-1 tvg-id="Kinomix.ru" tvg-name="Kinomix" tvg-logo="https://i.imgur.com/D4q2XUT.png" group-title="RU • Movies",Kinomix
 http://93.170.254.17/Kinomiks/index.m3u8
+#EXTINF:-1 tvg-id="Kinomix.ru@HD" tvg-name="Kinomix HD" tvg-logo="https://i.imgur.com/D4q2XUT.png" group-title="RU • Movies",Kinomix HD
+http://s7.merlive.am/Kinomix/index.m3u8
+#EXTINF:-1 tvg-id="Kinopokaz.ru" tvg-name="Kinopokaz" tvg-logo="https://i.imgur.com/nNjMyAq.png" group-title="RU • Movies",Kinopokaz
+https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Kinopremyera.ru" tvg-name="Kinopremyera" tvg-logo="https://i.imgur.com/s0UYT8T.png" group-title="RU • Movies",Kinopremyera
 http://s7.merlive.am/Kinopremera/index.m3u8
 #EXTINF:-1 tvg-id="Kinosemja.ru" tvg-name="Kinosemja" tvg-logo="https://i.imgur.com/4BF5VeK.png" group-title="RU • Movies",Kinosemja
@@ -62,6 +68,8 @@ http://s7.merlive.am/mosfilm/index.m3u8
 https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8
 #EXTINF:-1 tvg-id="NasheLubimoeKino.ru" tvg-name="Nashe Lubimoe Kino" tvg-logo="https://i.imgur.com/iKPfM5K.png" group-title="RU • Movies",Nashe Lubimoe Kino
 http://s7.merlive.am/lubimoekino/index.m3u8
+#EXTINF:-1 tvg-id="NasheNovoeKino.ru" tvg-name="Nashe Novoe Kino" tvg-logo="https://i.imgur.com/IOxIsPj.png" group-title="RU • Movies",Nashe Novoe Kino
+https://stream8.cinerama.uz/1051/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="RodnoeKino.ru" tvg-name="Rodnoe Kino" tvg-logo="https://i.imgur.com/H70LxoZ.png" group-title="RU • Movies",Rodnoe Kino
 http://s7.merlive.am/rodnoekino/index.m3u8
 #EXTINF:-1 tvg-id="Russkiyroman.ru" tvg-name="Russkiy roman" tvg-logo="https://i.imgur.com/cQN0P2B.png" group-title="RU • Movies",Russkiy roman
@@ -71,7 +79,7 @@ http://s7.merlive.am/SHOTTV/index.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Gorkogo.ru" tvg-name="Smotrim 100% Gorkogo" tvg-logo="https://cdn.smotrim.ru/photobank/prod/large/156/126/56.jpg" group-title="RU • Movies",Smotrim 100% Gorkogo
 https://stream.smotrim.ru/hls2/fasttv07/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Klassika.ru" tvg-name="Smotrim 100% Klassika" tvg-logo="https://i.imgur.com/aASNpKq.png" group-title="RU • Movies",Smotrim 100% Klassika
-https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
+https://stream.smotrim.ru/hls2/fasttv03/playlist_3.m3u8
 #EXTINF:-1 tvg-id="StarCinema.ru" tvg-name="Star Cinema" tvg-logo="https://i.imgur.com/5sis895.png" group-title="RU • Movies",Star Cinema
 http://s7.merlive.am/starsinema/index.m3u8
 #EXTINF:-1 tvg-id="StarFamily.ru" tvg-name="Star Family" tvg-logo="https://i.imgur.com/eGuGHnZ.png" group-title="RU • Movies",Star Family
