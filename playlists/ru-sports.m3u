@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/anarabbasov2010-eng/AZ-RU-IPTV-Hub/main/epg/programs.xml"
-# Russian Sports | generated 2026-11-27T14:01:32+00:00
+# Russian Sports | generated 2026-11-28T00:10:02+00:00
 #EXTINF:-1 tvg-id="AstrahanRuSport.ru" tvg-name="Astrahan.Ru Sport" tvg-logo="https://i.imgur.com/BKaEtqL.png" group-title="RU • Sports",Astrahan.Ru Sport
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:-1 tvg-id="BoksTV.ru" tvg-name="Boks TV" tvg-logo="https://i.imgur.com/R1UjyfX.png" group-title="RU • Sports",Boks TV
@@ -13,7 +13,7 @@ https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8
 #EXTINF:-1 tvg-id="KHL.ru" tvg-name="KHL" tvg-logo="https://i.imgur.com/RgdHdOV.png" group-title="RU • Sports",KHL
 http://176.118.197.101/KHL/index.m3u8
 #EXTINF:-1 tvg-id="MatchUltra.ru" tvg-name="Match! Ultra" tvg-logo="https://www.kartina.tv/media/news/images/News/SEO/kanal-match-ultra.jpg" group-title="RU • Sports",Match! Ultra
-http://45.132.87.69:8080/match/index.m3u8
+http://31.148.5.241/kanal_3/index.m3u8
 #EXTINF:-1 tvg-id="MMATVcom.ru" tvg-name="MMA-TV.com" tvg-logo="https://i.imgur.com/QhdxNsB.png" group-title="RU • Sports",MMA-TV.com
 https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 #EXTINF:-1 tvg-id="Sportivnyy.ru" tvg-name="Sportivnyy" tvg-logo="https://i.imgur.com/ujS6mMo.png" group-title="RU • Sports",Sportivnyy
